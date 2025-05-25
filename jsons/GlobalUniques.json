@@ -40,13 +40,13 @@
         "Triggers a [Chaos Ensue] event <if [Unified] is constructed> <when below [0] [Happiness]> <with [10]% chance> <upon turn start> <before the [Medieval era]>",
         "Triggers a [Chaos Ensue] event <if [Unified] is constructed> <when below [-3] [Happiness]> <with [25]% chance> <upon turn start> <before the [Medieval era]>",
 
-        "Triggers a [Chaos Ensue] event <if [Unified] is not constructed> <when below [5] [Happiness]> <with [3]% chance> <upon turn start> <starting from the [Medieval era]>",
-        "Triggers a [Chaos Ensue] event <if [Unified] is not constructed> <when below [3] [Happiness]> <with [10]% chance> <upon turn start> <starting from the [Medieval era]>",
-        "Triggers a [Chaos Ensue] event <if [Unified] is not constructed> <when below [0] [Happiness]> <with [25]% chance> <upon turn start> <starting from the [Medieval era]>",
+        "Triggers a [Chaos Ensue] event <if ['Divided'] is constructed> <when below [5] [Happiness]> <with [3]% chance> <upon turn start> <starting from the [Medieval era]>",
+        "Triggers a [Chaos Ensue] event <if ['Divided'] is constructed> <when below [3] [Happiness]> <with [10]% chance> <upon turn start> <starting from the [Medieval era]>",
+        "Triggers a [Chaos Ensue] event <if ['Divided'] is constructed> <when below [0] [Happiness]> <with [25]% chance> <upon turn start> <starting from the [Medieval era]>",
 
-        "Triggers a [Chaos Ensue] event <if [Unified] is not constructed> <when below [0] [Happiness]> <with [3]% chance> <upon turn start> <before the [Medieval era]>",
-        "Triggers a [Chaos Ensue] event <if [Unified] is not constructed> <when below [-5] [Happiness]> <with [10]% chance> <upon turn start> <before the [Medieval era]>",
-        "Triggers a [Chaos Ensue] event <if [Unified] is not constructed> <when below [-10] [Happiness]> <with [25]% chance> <upon turn start> <before the [Medieval era]>",
+        "Triggers a [Chaos Ensue] event <if ['Divided'] is constructed> <when below [0] [Happiness]> <with [3]% chance> <upon turn start> <before the [Medieval era]>",
+        "Triggers a [Chaos Ensue] event <if ['Divided'] is constructed> <when below [-5] [Happiness]> <with [10]% chance> <upon turn start> <before the [Medieval era]>",
+        "Triggers a [Chaos Ensue] event <if ['Divided'] is constructed> <when below [-10] [Happiness]> <with [25]% chance> <upon turn start> <before the [Medieval era]>",
 
         "Triggers a [Chaos Ensue] event <when between [0] and [-5] [Influence]> <with [3]% chance> <upon turn start> <starting from the [Medieval era]>",
         "Triggers a [Chaos Ensue] event <when between [-6] and [-10] [Influence]> <with [10]% chance> <upon turn start> <starting from the [Medieval era]>",
@@ -58,8 +58,8 @@
         
         "Triggers a [Shift in Politic] event <upon entering a new era> <starting from the [Classical era]>",
 
-        "Gain a free [Unified] [in capital] <if ['United'] is constructed in all [Capital] cities> <upon turn end>",
-        "Remove [Unified] [in capital] <if ['Divided'] is constructed in all [Capital] cities> <upon turn end>",
+        "Gain a free [Unified] [in capital] <if ['United'] is constructed>",
+        "Remove [Unified] [in capital] <if ['Divided'] is constructed>",
         "[-1] Sight <for [Embarked] units>",
         //Prevents AI from spamming units
         "Cannot build ['Mercenary Army'] units <when not at war> <starting from the [Classical era]> <for [AI player] Civilizations>",
