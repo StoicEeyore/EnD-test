@@ -540,8 +540,8 @@
 		"food": 1,
 		"uniques": [
 			"'Light Industry'",
-			"[+1 Gold] from [{'Agricultural Improvement'} {Grain}] tiles [in this city]",
-			"[+1 Gold] from [{'Agricultural Improvement'} {Tuber}] tiles [in this city]"
+			"[+1 Gold] from [{improved} {Grain}] tiles [in this city]",
+			"[+1 Gold] from [{improved} {Tuber}] tiles [in this city]"
 		],
 		"requiredTech": "Pottery",
 		"hurryCostModifier": 5
@@ -570,7 +570,7 @@
 			"[+1 Production] per [8] population [in this city] <in cities with between [15] and [24] [Population]>",
 			"[+1 Production] per [10] population [in this city]<in cities with at least [24] [Population]>",
 			"[+1 Production] from [Clay] tiles [in this city]",
-			"[+1 Production] from [{'Extraction Improvement'} {Clay}] tiles [in this city]"
+			"[+1 Production] from [{improved} {Clay}] tiles [in this city]"
 		],
 		"requiredTech": "Pottery",
 		"hurryCostModifier": 0
@@ -584,9 +584,12 @@
 			"[+1 Culture] per [5] population [in this city] <in cities with between [9] and [15] [Population]>",
 			"[+1 Culture] per [8] population [in this city] <in cities with between [15] and [24] [Population]>",
 			"[+1 Culture] per [10] population [in this city] <in cities with at least [24] [Population]>",
-			"[+1 Production] from [{'Agricultural Improvement'} {'Textile'}] tiles [in this city]",
-			"[+1 Gold] from [{Camp} {Furs}] tiles [in this city]",
-			"[+1 Gold] from [{'Agricultural Improvement'} {Silk}] tiles [in this city]"
+			"[+1 Production] from [{improved} {Bovine}] tiles [in this city]",
+			"[+1 Production] from [{improved} {Caprinae}] tiles [in this city]",
+			"[+1 Production] from [{improved} {Silk}] tiles [in this city]",
+			"[+1 Production] from [{improved} {Cotton}] tiles [in this city]",
+			"[+1 Gold] from [{improved} {Furs}] tiles [in this city]",
+			"[+1 Gold] from [{improved} {Silk}] tiles [in this city]"
 		],
 		"requiredNearbyImprovedResources": [
 			"Bovine",
@@ -618,7 +621,9 @@
 		"food": 1,
 		"uniques": [
 			"'Economic Building'",
-			"[+1 Gold] from ['Hunt'] tiles [in this city]"
+			"[+1 Gold] from [Wild Animals] tiles [in this city]",
+			"[+1 Gold] from [Furs] tiles [in this city]",
+			"[+1 Gold] from [Ivory] tiles [in this city]"
 		],
 		"requiredTech": "Trapping",
 		"hurryCostModifier": 0
@@ -640,7 +645,11 @@
 		"uniqueTo": "North Africa",
 		"uniques": [
 			"'Agricultural Building'",
-			"[+1 Food] from [{Fresh water} {'Agricultural Improvement'}] tiles [in this city]",
+			"[+1 Food] from [{Fresh water} {Pasture}] tiles [in this city]",
+			"[+1 Food] from [{Fresh water} {Manual Farms}] tiles [in this city]",
+			"[+1 Food] from [{Fresh water} {Manual Plantation}] tiles [in this city]",
+			"[+1 Food] from [{Fresh water} {Terrace Farm}] tiles [in this city]",
+			"[+1 Food] from [{Fresh water} {Oasis Dwelling}] tiles [in this city]",
 			"Must be on [River]",
 			"Only available <in cities without a [Irrigation System]>",
 			"Only available <in cities without a [Agricultural Water Storage]>"
@@ -674,9 +683,9 @@
 			"[+1 Gold] from [Gold Ore] tiles [in this city]",
 			"[+1 Gold] from [Silver Ore] tiles [in this city]",
 			"[+1 Gold] from [Rich Copper Ore] tiles [in this city]",
-			"[+1 Gold] from [{'Extraction Improvement'} {Gold Ore}] tiles [in this city]",
-			"[+1 Gold] from [{'Extraction Improvement'} {Silver Ore}] tiles [in this city]",
-			"[+1 Gold] from [{'Extraction Improvement'} {Rich Copper Ore}] tiles [in this city]",
+			"[+1 Gold] from [{improved} {Gold Ore}] tiles [in this city]",
+			"[+1 Gold] from [{improved} {Silver Ore}] tiles [in this city]",
+			"[+1 Gold] from [{improved} {Rich Copper Ore}] tiles [in this city]",
 			"[+2 Gold] from [Cocoa] tiles [in this city]",
 			"[+1 Gold] per [4] population [in this city]"
 		],
@@ -697,9 +706,12 @@
 		},
 		"uniques": [
 			"'Light Industry'",
-			"[+1 Gold] from [{'Extraction Improvement'} {'Precious Mineral'}] tiles [in this city]",
-			"[+1 Gold] from [{Camp} {Ivory}] tiles [in this city]",
-			"[+1 Gold] from [{'Water Improvement'} {Coral}] tiles [in this city]",
+			"[+1 Gold] from [{improved} {Gems}] tiles [in this city]",
+			"[+1 Gold] from [{improved} {Gold Ore}] tiles [in this city]",
+			"[+1 Gold] from [{improved} {Silver Ore}] tiles [in this city]",
+			"[+1 Gold] from [{improved} {Rich Copper Ore}] tiles [in this city]",
+			"[+1 Gold] from [{improved} {Ivory}] tiles [in this city]",
+			"[+1 Gold] from [{improved} {Coral}] tiles [in this city]",
 			"Consumes [1] [Glass] <with [Glass]>",
 			"[+1 Gold] <with [Glass]>"
 		],
@@ -976,7 +988,9 @@
 		"production": 1,
 		"uniques": [
 			"'Economic Building'",
-			"[+1 Gold] from [{'Agricultural Improvement'} {'Herd'}] tiles [in this city]",
+			"[+1 Gold] from [{improved} {Bovine}] tiles [in this city]",
+			"[+1 Gold] from [{improved} {Caprinae}] tiles [in this city]",
+			"[+1 Gold] from [{improved} {Horse}] tiles [in this city]",
 			"Must have an owned [Pasture] within [3] tiles"
 		],
 		"requiredTech": "Trade Network",
@@ -987,12 +1001,11 @@
 		"gold": 1,
 		"uniques": [
 			"'Economic Building'",
-			"[+1 Gold] from [Incense] tiles [in this city]",
-			"[+1 Gold] from [Spices] tiles [in this city]",
-			"[+1 Gold] from [Grape] tiles [in this city]",
-			"[+1 Gold] from [Sugar] tiles [in this city]",
-			"[+1 Gold] from [Cocoa] tiles [in this city]",
-			"[+1 Gold] from [{'Agricultural Improvement'} {'Crops'}] tiles [in this city]"
+			"[+1 Gold] from [Luxury] tiles [in this city]",
+			"[+1 Gold] from [{improved} {Fruit}] tiles [in this city]",
+			"[+1 Gold] from [{improved} {Grain}] tiles [in this city]",
+			"[+1 Gold] from [{improved} {Tuber}] tiles [in this city]",
+			"[+1 Gold] from [{improved} {Rubber}] tiles [in this city]"
 		],
 		"requiredTech": "Trade Network",
 		"hurryCostModifier": 10
@@ -1195,7 +1208,8 @@
 		},
 		"uniques": [
 			"'Heavy Industry'",
-			"[+1 Production] from ['Rock'] tiles [in this city]",
+			"[+1 Production] from [Stone] tiles [in this city]",
+			"[+1 Production] from [Marble] tiles [in this city]",
 			"[+1]% Production when constructing [All] buildings [in all cities]"
 		],
 		"requiredNearbyImprovedResources": [
@@ -1230,8 +1244,8 @@
 		},
 		"uniques": [
 			"'Light Industry'",
-			"[+1 Gold] from ['Lumber Improvement'] tiles [in this city]",
-			"Must have an owned ['Lumber Improvement'] within [3] tiles"
+			"[+1 Gold] from [{improved} {Hard Wood}] tiles [in this city]",
+			"Must have an owned [{improved} {Hard Wood}] within [3] tiles"
 		],
 		"requiredTech": "Carpentry",
 		"hurryCostModifier": 10
@@ -1376,7 +1390,10 @@
 		},
 		"uniques": [
 			"Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
-			"[+1 Gold] from ['Useful Mineral'] tiles [in this city]"
+			"[+1 Gold] from [Clay] tiles [in this city]",
+			"[+1 Gold] from [Minerals] tiles [in this city]",
+			"[+1 Gold] from [Strategic] tiles [in this city]",
+			"[+1 Gold] from [Rich Copper Ore] tiles [in this city]"
 		],
 		"requiredTech": "Masonry",
 		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
@@ -1631,7 +1648,7 @@
 		"uniques": [
 			"'Marine Infrastructure'",
 			"[+5]% growth [in this city]",
-			"[+1 Food] from ['Water Improvement'] tiles [in this city]",
+			"[+1 Food] from [{improved} {Water}] tiles [in this city]",
 			"Must be next to [Coast]"
 		],
 		"requiredBuilding": "Fishing Port",
@@ -1814,9 +1831,16 @@
 		"maintenance": 3,
 		"uniques": [
 			"'Light Industry'",
-			"[+1 Production] from ['Extraction Improvement'] tiles [in this city]",
-			"[+1 Food] from ['Agricultural Improvement'] tiles [in this city]",
-			"[+1 Production] from ['Lumber Improvement'] tiles [in this city]"
+			"[+1 Production] from [Quarry] tiles [in this city]",
+			"[+1 Production] from [Manual Mine] tiles [in this city]",
+			"[+1 Production] from [Mechanised Mine] tiles [in this city]",
+			"[+1 Food] from [Manual Farm] tiles [in this city]",
+			"[+1 Food] from [Manual Plantation] tiles [in this city]",
+			"[+1 Food] from [Terrace Farm] tiles [in this city]",
+			"[+1 Food] from [Pasture] tiles [in this city]",
+			"[+1 Food] from [Oasis Dwelling] tiles [in this city]",
+			"[+1 Food] from [Permaculture] tiles [in this city]",
+			"[+1 Production] from [{improved} {Hard Wood}] tiles [in this city]"
 		],
 		"requiredTech": "Forging",
 		"hurryCostModifier": 25
@@ -1840,7 +1864,13 @@
 		"maintenance": 3,
 		"uniques": [
 			"'Infrastructure'",
-			"[+1 Food] from [{Fresh water} {'Agricultural Improvement'}] tiles [in this city]",
+			"[+1 Food] from [{Fresh water} {Manual Farm}] tiles [in this city]",
+			"[+1 Food] from [{Fresh water} {Manual Plantation}] tiles [in this city]",
+			"[+1 Food] from [{Fresh water} {Terrace Farm}] tiles [in this city]",
+			"[+1 Food] from [{Fresh water} {Oasis Dwelling}] tiles [in this city]",
+			"[+1 Food] from [{Fresh water} {Pasture}] tiles [in this city]",
+			"[+1 Food] from [{Fresh water} {Mechanised Farm}] tiles [in this city]",
+			"[+1 Food] from [{Fresh water} {Mechanised Livestock Farm}] tiles [in this city]",
 			"Only available <in cities without a [Early Irrigation System]>",
 			"Only available <in cities without a [Agricultural Water Storage]>"
 		],
@@ -2507,7 +2537,12 @@
 		},
 		"uniques": [
 			"'Heavy Industry'",
-			"[+1 Production] from ['Useful Mineral'] tiles [in this city]",
+			"[+1 Production] from [Clay] tiles [in this city]",
+			"[+1 Production] from [Minerals] tiles [in this city]",
+			"[+1 Production] from [Metal] tiles [in this city]",
+			"[+1 Production] from [Rich Copper Ore] tiles [in this city]",
+			"[+1 Production] from [Aluminum] tiles [in this city]",
+			"[+1 Production] from [Uranium] tiles [in this city]",
 			"Provides [1] [Alloy]",
 			"Consumes [1] [Metal]"
 		],
@@ -3120,7 +3155,15 @@
 		"maintenance": 3,
 		"uniques": [
 			"'Agricultural Building'",
-			"[+1 Food] from ['Agricultural Improvement'] tiles [in this city]"
+			"[+1 Food] from [Manual Farm] tiles [in this city]",
+			"[+1 Food] from [Manual Plantation] tiles [in this city]",
+			"[+1 Food] from [Terrace Farm] tiles [in this city]",
+			"[+1 Food] from [Oasis Dwelling] tiles [in this city]",
+			"[+1 Food] from [Pasture] tiles [in this city]",
+			"[+1 Food] from [Permaculture] tiles [in this city]",
+			"[+1 Food] from [Colony Plantation] tiles [in this city]",
+			"[+1 Food] from [Mechanised Farm] tiles [in this city]",
+			"[+1 Food] from [Mechanised Livestock Farm] tiles [in this city]",
 		],
 		"requiredBuilding": "Civilian Factory Complex",
 		"requiredTech": "Fertilizer",
@@ -3349,7 +3392,11 @@
 		},
 		"uniques": [
 			"'Light Industry'",
-			"[+1 Gold] from ['Textile'] tiles [in this city]"
+			"[+1 Gold] from [Bovine] tiles [in this city]",
+			"[+1 Gold] from [Caprinae] tiles [in this city]",
+			"[+1 Gold] from [Silk] tiles [in this city]",
+			"[+1 Gold] from [Furs] tiles [in this city]",
+			"[+1 Gold] from [Cotton] tiles [in this city]"
 		],
 		"requiredNearbyImprovedResources": [
 			"Bovine",
@@ -3372,7 +3419,7 @@
 		},
 		"uniques": [
 			"'Light Industry'",
-			"[+1 Gold] from ['Lumber Improvement'] tiles [in this city]",
+			"[+1 Gold] from [{improved} {Hard Wood}] tiles [in this city]",
 			"[+1 Gold] from [Hard Wood] tiles [in this city]",
 		],
 		"requiredBuilding": "Civilian Factory Complex",
@@ -3432,8 +3479,13 @@
 		"maintenance": 3,
 		"uniques": [
 			"'Light Industry'",
-			"[+1 Food] from ['Herd'] tiles [in this city]",
-			"[+1 Food] from ['Crops'] tiles [in this city]",
+			"[+1 Food] from [Bovine] tiles [in this city]",
+			"[+1 Food] from [Caprinae] tiles [in this city]",
+			"[+1 Food] from [Horse] tiles [in this city]",
+			"[+1 Food] from [Fruit] tiles [in this city]",
+			"[+1 Food] from [Grain] tiles [in this city]",
+			"[+1 Food] from [Tuber] tiles [in this city]",
+			"[+1 Food] from [Rubber] tiles [in this city]",
 			"[+1 Food] from [Coastal Fish] tiles [in this city]",
 			"[+2 Happiness] <after discovering [Refrigeration]>",
 			"Consumes [3] [Deep Sea Fish(Stored)] <when above [3] [Deep Sea Fish(Stored)]>",
@@ -3535,7 +3587,8 @@
 		},
 		"uniques": [
 			"'Heavy Industry'",
-			"[+1 Production] from ['Rock'] tiles [in this city]",
+			"[+1 Production] from [Stone] tiles [in this city]",
+			"[+1 Production] from [Marble] tiles [in this city]",
 			"[+10]% Production when constructing [All] buildings [in all cities]"
 		],
 		"requiredBuilding": "Civilian Factory Complex",
@@ -3950,7 +4003,11 @@
 		"maintenance": 3,
 		"uniques": [
 			"'Heavy Industry'",
-			"[+1 Production] from ['Chemicals'] tiles [in this city]",
+			"[+1 Production] from [Natural Gas] tiles [in this city]",
+			"[+1 Production] from [Rubber] tiles [in this city]",
+			"[+1 Production] from [Oil] tiles [in this city]",
+			"[+1 Production] from [Dyes] tiles [in this city]",
+			"[+1 Production] from [Halite] tiles [in this city]",
 			"Consumes [2] [Industrial Chemicals] <when above [2] [Industrial Chemicals]>",
 			"[+8 Production, +10 Gold] <when above [2] [Industrial Chemicals]>"
 		],
@@ -5233,10 +5290,14 @@
 			"Unsellable",
 			"'Economic Policy'",
 			"Triggers a global alert upon completion",
-			"[+1 Culture, +1 Production] from ['Agricultural Improvement'] tiles [in all cities]",
-			"[+1 Culture, +1 Production] from ['Water Improvement'] tiles [in all cities]",
-			"[+1 Culture, +1 Science] from ['Lumber Improvement'] tiles [in all cities]",
-			"[+1 Culture, +1 Food] from ['Extraction Improvement'] tiles [in all cities]",
+			"[+1 Culture, +1 Production] from [{improved} {Land}] tiles [in all cities]",
+			"[+1 Culture, +1 Production] from [{improved} {Water}] tiles [in all cities]",
+			"[+1 Culture, +1 Science] from [{improved} {Hard Wood}] tiles [in all cities]",
+			"[+1 Culture, +1 Food] from [Quarry] tiles [in all cities]",
+			"[+1 Culture, +1 Food] from [Manual Mine] tiles [in all cities]",
+			"[+1 Culture, +1 Food] from [Mechanised Mine] tiles [in all cities]",
+			"[+1 Culture, +1 Food] from [Oil Well] tiles [in all cities]",
+			"[+1 Culture, +1 Food] from [Offshore Platform] tiles [in all cities]",
 			"Moves to new capital when capital changes"
 		],
 		"requiredTech": "Telegram"
@@ -5915,7 +5976,11 @@
 			"Provides [1] [Influence]",
 			"Provides [3] [Standing Army Maintainance]",
 			"Provides [4] [Noble Army Maintainance]",
-			"[+1 Production] from ['Extraction Improvement'] tiles [in all cities]",
+			"[+1 Production] from [Quarry] tiles [in all cities]",
+			"[+1 Production] from [Manual Mine] tiles [in all cities]",
+			"[+1 Production] from [Mechanised Mine] tiles [in all cities]",
+			"[+1 Production] from [Oil Well] tiles [in all cities]",
+			"[+1 Production] from [Offshore Platform] tiles [in all cities]",
 			"New [{'Standing Army'} {Land}] units start with [15] XP [in all cities]",
 			"Gain a free [Military Expansion] [in all non-occupied cities]",
 			"Triggers a global alert upon completion",
