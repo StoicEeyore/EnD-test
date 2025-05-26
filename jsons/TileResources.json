@@ -30,8 +30,6 @@
 			"production": 1
 		},
 		"uniques": [
-			"'Herd'",
-			"'Textile'",
 			"Generated on every [18] tiles <in [{Featureless} {Grassland}] tiles>",
 			"Generated on every [22] tiles <in [{Featureless} {Grassland}] tiles> <in [Hill] Regions>"
 		]
@@ -51,8 +49,6 @@
 			"food": 1
 		},
 		"uniques": [
-			"'Herd'",
-			"'Textile'",
 			"Generated on every [13] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
 			"Generated on every [8] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]> <in tiles without [Fresh Water]> <in [Hill] Regions>"
 		]
@@ -74,7 +70,6 @@
 			"gold": 1
 		},
 		"uniques": [
-			"'Hunt'",
 			"Generated on every [8] tiles <in [{Tundra} {Forest}] tiles>",
 			"Generated on every [12] tiles <in [{Featureless} {Tundra}] tiles>",
 			"Generated on every [16] tiles <in [{Plains} {Forest}] tiles> <in tiles without [Hill]>",
@@ -102,7 +97,6 @@
 			"food": 1
 		},
 		"uniques": [
-			"'Crops'",
 			"Generated on every [20] tiles <in [Forest] tiles>",
 			"Generated on every [18] tiles <in [Forest] tiles> <in [Hill] Regions>",
 			"Generated on every [16] tiles <in [Jungle] tiles>",
@@ -126,7 +120,6 @@
 			"Terrace Farm"
 		],
 		"uniques": [
-			"'Crops'",
 			"Generated on every [18] tiles <in [{Featureless} {Plains}] tiles>",
 			"Generated on every [10] tiles <in [{Desert} {Fresh Water}] tiles> <in tiles without [Hill]>",
 			"Generated on every [27] tiles <in [{Featureless} {Plains}] tiles> <in [Hill] Regions>",
@@ -152,7 +145,6 @@
 			"Terrace Farm"
 		],
 		"uniques": [
-			"'Crops'",
 			"Generated on every [20] tiles <in [{Featureless} {Plains}] tiles> <in [Hill] Regions>",
 			"Generated on every [14] tiles <in [Jungle] tiles>",
 			"Generated on every [14] tiles <in [Forest] tiles>"
@@ -197,7 +189,6 @@
 			"production": 1
 		},
 		"uniques": [
-			"'Rock'",
 			"Generated on every [20] tiles <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
 			"Generated on every [15] tiles <in [{Featureless} {Tundra}] tiles>",
 			"Generated on every [19] tiles <in [{Featureless} {Desert}] tiles>"
@@ -218,7 +209,6 @@
 			"production": 1
 		},
 		"uniques": [
-			"'Useful Mineral'",
 			"Generated on every [18] tiles <in [{Featureless} {Grassland}] tiles> <in [Fresh Water] tiles>",
 			"Generated on every [20] tiles <in [{Featureless} {Plains}] tiles> <in [Fresh Water] tiles>",
 			"Generated on every [18] tiles <in [{Featureless} {Flood plains}] tiles>"
@@ -240,7 +230,6 @@
 			"Mechanised Mine"
 		],
 		"uniques": [
-			"'Useful Mineral'",
 			"Generated on every [20] tiles <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
 			"Generated on every [12] tiles <in [{Hill} {Grassland}] tiles> <in [Hill] Regions>",
 			"Generated on every [20] tiles <in [{Featureless} {Tundra}] tiles>",
@@ -308,7 +297,6 @@
 			"Offshore Platform"
 		],
 		"uniques": [
-			"'Chemicals'",
 			"Generated on every [33] tiles <in [{Featureless} {Coast}] tiles>",
 			"Generated on every [25] tiles <in [{Featureless} {Ocean}] tiles>",
 			"Generated on every [25] tiles <in [{Featureless} {Desert}] tiles>",
@@ -342,7 +330,6 @@
 			"production": 1
 		},
 		"uniques": [
-			"'Herd'",
 			"Guaranteed with Strategic Balance resource option",
 			"Generated with weight [100] <in [{Featureless} {Grassland}] tiles>",
 			"Generated with weight [100] <in [{Featureless} {Plains}] tiles>",
@@ -382,7 +369,6 @@
 			"Mechanised Mine"
 		],
 		"uniques": [
-			"'Useful Mineral'",
 			"Guaranteed with Strategic Balance resource option",
 			"Generated with weight [45] <in [{Featureless} {Tundra}] tiles>",
 			"Generated with weight [35] <in [{Featureless} {Desert}] tiles>",
@@ -423,7 +409,6 @@
 			"Permaculture"
 		],
 		"uniques": [
-			"'Crops'","'Chemicals'",
 			"Guaranteed with Strategic Balance resource option",
 			"Minor deposits generated with weight [33] <in [{Jungle} {Hill}] tiles>",
 			"Minor deposits generated with weight [33] <in [Forest] tiles>"
@@ -460,7 +445,6 @@
 			"production": 1
 		},
 		"uniques": [
-			"'Useful Mineral'",
 			"Generated with weight [35] <in [Hill] tiles>",
 			"Generated with weight [30] <in [Jungle] tiles> <in tiles without [Hill]>",
 			"Generated with weight [30] <in [Forest] tiles> <in tiles without [Hill]>",
@@ -506,7 +490,6 @@
 			"production": 3
 		},
 		"uniques": [
-			"'Chemicals'",
 			"Deposits in [Coast] tiles always provide [3] resources",
 			"Deposits in [Ocean] tiles always provide [6] resources",
 			"Guaranteed with Strategic Balance resource option",
@@ -554,7 +537,6 @@
 			"production": 1
 		},
 		"uniques": [
-			"'Useful Mineral'",
 			"Generated with weight [15] <in [{Featureless} {Tundra}] tiles>",
 			"Generated with weight [15] <in [{Featureless} {Snow}] tiles>",
 			"Generated with weight [39] <in [Hill] tiles>",
@@ -592,7 +574,6 @@
 			"production": 1
 		},
 		"uniques": [
-			"'Useful Mineral'",
 			"Generated with weight [35] <in [Marsh] tiles> <in tiles without [Hill]>",
 			"Generated with weight [70] <in [Jungle] tiles> <in tiles without [Hill]>",
 			"Generated with weight [70] <in [Forest] tiles> <in tiles without [Hill]>",
@@ -750,7 +731,6 @@
 			"gold": 1
 		},
 		"uniques": [
-			"'Hunt'",
 			"Generated with weight [40] <in [Tundra] Regions>",
 			"Generated with weight [10] <in [Forest] Regions>",
 			"Generated near City States with weight [15]"
@@ -772,7 +752,6 @@
 			"gold": 2
 		},
 		"uniques": [
-			"'Hunt'",
 			"Generated with weight [35] <in [Plains] Regions>",
 			"Generated with weight [15] <in [Hybrid] Regions>",
 			"Generated near City States with weight [10]",
@@ -795,7 +774,6 @@
 			"gold": 2
 		},
 		"uniques": [
-			"'Textile'",
 			"Generated with weight [5] <in [Jungle] Regions>",
 			"Generated with weight [30] <in [Forest] Regions>",
 			"Generated with weight [5] <in [Hybrid] Regions>",
@@ -930,8 +908,6 @@
 			"gold": 1
 		},
 		"uniques": [
-			"'Textile'",
-			"'Crops'",
 			"Generated with weight [15] <in [Desert] Regions>",
 			"Generated with weight [30] <in [Grassland] Regions>",
 			"Generated with weight [15] <in [Hybrid] Regions>",
@@ -958,7 +934,6 @@
 			"gold": 1
 		},
 		"uniques": [
-			"'Chemicals'",
 			"Generated with weight [5] <in [Tundra] Regions>",
 			"Generated with weight [5] <in [Jungle] Regions>",
 			"Generated with weight [30] <in [Forest] Regions>",
@@ -984,7 +959,6 @@
 			"faith": 1
 		},
 		"uniques": [
-			"'Crops'",
 			"Generated with weight [35] <in [Desert] Regions>",
 			"Generated with weight [10] <in [Plains] Regions>",
 			"Generated with weight [5] <in [Hybrid] Regions>",
@@ -1010,7 +984,6 @@
 			"gold": 1
 		},
 		"uniques": [
-			"'Crops'",
 			"Generated with weight [30] <in [Jungle] Regions>",
 			"Generated with weight [10] <in [Forest] Regions>",
 			"Generated with weight [5] <in [Plains] Regions>",
@@ -1039,7 +1012,6 @@
 			"gold": 1
 		},
 		"uniques": [
-			"'Crops'",
 			"Generated with weight [35] <in [Hill] Regions>",
 			"Generated with weight [15] <in [Hybrid] Regions>",
 			"Generated near City States with weight [10]"
@@ -1065,7 +1037,6 @@
 			"gold": 1
 		},
 		"uniques": [
-			"'Crops'",
 			"Generated with weight [20] <in [Jungle] Regions>",
 			"Generated with weight [15] <in [Desert] Regions>",
 			"Generated with weight [20] <in [Grassland] Regions>",
@@ -1093,7 +1064,6 @@
 			"gold": 1
 		},
 		"uniques": [
-			"'Crops'",
 			"Generated with weight [35] <in [Jungle] Regions>",
 			"Generated with weight [5] <in [Forest] Regions>",
 			"Generated with weight [5] <in [Desert] Regions>",
@@ -1119,7 +1089,6 @@
 			"gold": 2
 		},
 		"uniques": [
-			"'Crops'",
 			"Generated with weight [35] <in [Jungle] Regions> ",
 			"Generated with weight [5] <in [Forest] Regions><in tiles without [Hill]>",
 			"Generated with weight [5] <in [Hybrid] Regions>",
@@ -1145,7 +1114,6 @@
 			"gold": 1
 		},
 		"uniques": [
-			"'Crops'",
 			"Generated with weight [20] <in [Hill] Regions> ",
 			"Generated with weight [20] <in [Jungle] Regions> ",
 			"Generated with weight [5] <in [Forest] Regions><in tiles without [Hill]>",
@@ -1171,7 +1139,6 @@
 			"gold": 2
 		},
 		"uniques": [
-			"'Crops'",
 			"Generated with weight [30] <in [Jungle] Regions> ",
 			"Generated with weight [5] <in [Forest] Regions><in tiles without [Hill]>",
 			"Generated with weight [5] <in [Hybrid] Regions>",
@@ -1197,7 +1164,6 @@
 			"gold": 1
 		},
 		"uniques": [
-			"'Crops'",
 			"Generated with weight [5] <in [Jungle] Regions>",
 			"Generated with weight [30] <in [Forest] Regions>",
 			"Generated with weight [5] <in [Plains] Regions>",
@@ -1225,7 +1191,6 @@
 			"food": 1
 		},
 		"uniques": [
-			"'Crops'",
 			"Generated with weight [5] <in [Jungle] Regions>",
 			"Generated with weight [35] <in [Forest] Regions>",
 			"Generated with weight [5] <in [Plains] Regions>",
@@ -1253,7 +1218,6 @@
 			"gold": 2
 		},
 		"uniques": [
-			"'Precious Mineral'",
 			"Generated with weight [5] <in [Tundra] Regions>",
 			"Generated with weight [20] <in [Jungle] Regions>",
 			"Generated with weight [15] <in [Hill] Regions>",
@@ -1282,7 +1246,6 @@
 			"gold": 2
 		},
 		"uniques": [
-			"'Precious Mineral'",
 			"Generated with weight [25] <in [Desert] Regions>",
 			"Generated with weight [30] <in [Hill] Regions>",
 			"Generated with weight [5] <in [Plains] Regions>",
@@ -1312,7 +1275,6 @@
 			"gold": 2
 		},
 		"uniques": [
-			"'Precious Mineral'",
 			"Generated with weight [25] <in [Tundra] Regions>",
 			"Generated with weight [30] <in [Hill] Regions>",
 			"Generated with weight [20] <in [Grassland] Regions>",
@@ -1344,7 +1306,6 @@
 			"production": 1
 		},
 		"uniques": [
-			"'Rock'",
 			"[+15]% Production when constructing [All] wonders [in all cities]",
 			"Special placement during map generation",
 			"Doesn't generate naturally <in [{Grassland} {Fresh Water}] tiles>"
@@ -1372,8 +1333,6 @@
 			"production": 1
 		},
 		"uniques": [
-			"'Useful Mineral'",
-			"'Precious Mineral'",
 			"Generated with weight [15] <in [Tundra] Regions>",
 			"Generated with weight [5] <in [Jungle] Regions>",
 			"Generated with weight [5] <in [Forest] Regions>",
@@ -1408,7 +1367,6 @@
 			"food": 1
 		},
 		"uniques": [
-			"'Chemicals'",
 			"Generated with weight [15] <in [Tundra] Regions>",
 			"Generated with weight [5] <in [Forest] Regions>",
 			"Generated with weight [15] <in [Desert] Regions>",
