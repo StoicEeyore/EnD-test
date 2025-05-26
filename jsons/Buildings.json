@@ -19,8 +19,7 @@
 			"Unbuildable <for [AI player] Civilizations>",
 			"Only available <in [Capital] cities>",
 			"Comment [Act upon internal affairs as if you are ruling a country. For examples, you can disband levies to mitigate the downside and increase stability of the civilization.]",
-			"Triggers a [Enact Policies] event",
-			"Gain a free [Enact Policies] [in capital] <if [Enact Policies] is not constructed> <for [Human player] Civilizations>"
+			"Triggers a [Enact Policies] event"
 		]
 	},
 	{
