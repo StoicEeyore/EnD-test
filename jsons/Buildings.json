@@ -3369,7 +3369,11 @@
 			"[+1]% [Gold] from Trade Routes",
 			"[+2]% growth [in all cities]",
 			"[-5]% maintenance cost for buildings [in this city]",
-			"[+1 Production] from ['Infrastructure Improvement'] tiles [in this city]"
+			"[+1 Production] from [Road] tiles [in this city]",
+			"[+1 Production] from [Railroad] tiles [in this city]",
+			"[+1 Production] from [Civilian Market] tiles [in this city]",
+			"[+1 Production] from [Storage Base] tiles [in this city]",
+			"[+1 Production] from [Power Plant] tiles [in this city]"
 		],
 		"requiredBuilding": "Road Network",
 		"requiredTech": "Replaceable Parts",
