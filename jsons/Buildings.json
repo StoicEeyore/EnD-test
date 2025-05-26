@@ -441,7 +441,6 @@
 		"name": "Well",
 		"food": 2,
 		"uniques": [
-			"'Agricultural Building'",
 			"Must not be on [River]"
 		],
 		"requiredTech": "Agriculture",
@@ -453,7 +452,6 @@
 		"replaces": "Well",
 		"food": 2,
 		"uniques": [
-			"'Agricultural Building'",
 			"[+5]% growth [in this city]",
 			"Must not be on [River]"
 		],
@@ -508,7 +506,6 @@
 		"maintenance": 1,
 		"food": 1,
 		"uniques": [
-			"'Agricultural Building'",
 			"[+1 Food] from [Fruit] tiles [in this city]",
 			"[+1 Food] from [Grain] tiles [in this city]",
 			"[+1 Food] from [Tuber] tiles [in this city]"
@@ -525,7 +522,6 @@
 		"production": 1,
 		"cityHealth": 5,
 		"uniques": [
-			"'Agricultural Building'",
 			"[+1 Food] from [Fruit] tiles [in this city]",
 			"[+1 Food] from [Grain] tiles [in this city]",
 			"[+1 Food] from [Tuber] tiles [in this city]"
@@ -632,7 +628,6 @@
 		"food": 2,
 		"production": 1,
 		"uniques": [
-			"'Agricultural Building'",
 			"Must be on [River]"
 		],
 		"requiredTech": "The Wheel",
@@ -642,7 +637,6 @@
 		"name": "Early Irrigation System",
 		"uniqueTo": "North Africa",
 		"uniques": [
-			"'Agricultural Building'",
 			"[+1 Food] from [{Fresh water} {Pasture}] tiles [in this city]",
 			"[+1 Food] from [{Fresh water} {Manual Farms}] tiles [in this city]",
 			"[+1 Food] from [{Fresh water} {Manual Plantation}] tiles [in this city]",
@@ -1741,7 +1735,6 @@
 			"Engineer": 1
 		},
 		"uniques": [
-			"'Agricultural Building'",
 			"Must not be on [Hill]"
 		],
 		"requiredTech": "Construction",
@@ -2682,7 +2675,6 @@
 			"Engineer": 1
 		},
 		"uniques": [
-			"'Agricultural Building'"
 		],
 		"requiredTech": "Machinery",
 		"hurryCostModifier": 25
@@ -3135,7 +3127,6 @@
 		"name": "Fertilizer Factory",
 		"maintenance": 3,
 		"uniques": [
-			"'Agricultural Building'",
 			"[+1 Food] from [Manual Farm] tiles [in this city]",
 			"[+1 Food] from [Manual Plantation] tiles [in this city]",
 			"[+1 Food] from [Terrace Farm] tiles [in this city]",
@@ -3317,7 +3308,6 @@
 			"food": 25
 		},
 		"uniques": [
-			"'Agricultural Building'",
 			"[+1 Food] from [Mechanised Farm] tiles [in this city]"
 		],
 		"requiredBuilding": "Car Factory",
@@ -3956,7 +3946,6 @@
 		},
 		"happiness": 3,
 		"uniques": [
-			"'Agricultural Building'",
 			"Only available <in cities without a [Nutripaste Factory]>"
 		],
 		"requiredTech": "Synthetic Materials",
