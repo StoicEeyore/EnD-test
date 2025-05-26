@@ -958,7 +958,9 @@
 		"gold": 1,
 		"production": 1,
 		"uniques": [
-			"[+1 Gold] from [{improved} {["Horse", "Bovine", "Caprinae"]}] tiles [in this city]",
+			"[+1 Gold] from [{improved} {Horse}] tiles [in this city]",
+			"[+1 Gold] from [{improved} {Bovine}] tiles [in this city]",
+			"[+1 Gold] from [{improved} {Caprinae}] tiles [in this city]",
 			"Must have an owned [Pasture] within [3] tiles"
 		],
 		"requiredTech": "Trade Network",
