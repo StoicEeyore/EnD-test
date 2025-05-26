@@ -961,7 +961,6 @@
 			"Artist": 1
 		},
 		"uniques": [
-			"'Educational Building'",
 			"[+1 Science] per [5] population [in this city]",
 			"[+1 Happiness] <after discovering [Drama and Poetry]>",
 			"Provides [1] [Artifact] <after discovering [Archaeology]>"
@@ -1937,6 +1936,7 @@
 		"name": "Alchemy Lab",
 		"cost": 150,
 		"maintenance": 3,
+		"science": 1,
 		"specialistSlots": {
 			"Engineer": 1,
 			"Scientist": 2
@@ -1945,7 +1945,6 @@
 			"Unbuildable",
 			"Unsellable",
 			"'Military Building'",
-			"'Research Building'",
 			"Gain a free [Chemistry Lab] [in this city] <after discovering [Chemistry]>"
 		],
 		"requiredTech": "Alchemy"
@@ -2472,11 +2471,11 @@
 		"name": "Medical School",
 		"maintenance": 2,
 		"happiness": 1,
+		"science": 1,
 		"specialistSlots": {
 			"Scientist": 1
 		},
 		"uniques": [
-			"'Educational Building'",
 			"Provides [1] [Living Condition] <in this city>",
 			"[-5]% Unhappiness from [Population] [in this city]",
 			"All newly-trained [relevant] units [in this city] receive the [Field Medic] promotion"
@@ -2592,7 +2591,6 @@
 			"Engineer": 2
 		},
 		"uniques": [
-			"'Educational Building'",
 			"[Great Artist] is earned [+1]% faster",
 			"[Great Engineer] is earned [+1]% faster",
 			"[Great Scientist] is earned [+1]% faster"
@@ -2716,7 +2714,6 @@
 		},
 		"requiredBuilding": "University",
 		"uniques": [
-			"'Research Building'",
 			"Must have an owned [Mountain] within [2] tiles"
 		],
 		"requiredTech": "Heliocentrism",
@@ -2796,7 +2793,6 @@
 			"Artist": 1
 		},
 		"uniques": [
-			"'Educational Building'",
 			"[+1 Science] per [5] population [in this city]",
 			"[+1 Science] from all ['Core of Religion'] buildings <in [All] cities>",
 			"Only available <after enhancing a religion>",
@@ -2819,7 +2815,6 @@
 			"Merchant": 1
 		},
 		"uniques": [
-			"'Educational Building'",
 			"[+1 Science] per [5] population [in this city]",
 			"Only available <in cities without a [Religious School]>",
 			"Only available <in cities without a [Public School]>"
@@ -2840,7 +2835,6 @@
 			"Artist": 1
 		},
 		"uniques": [
-			"'Educational Building'",
 			"Provides [1] [Living Condition] <in this city>",
 			"Only available <in cities without a [Religious School]>",
 			"Only available <in cities without a [Private School]>",
@@ -2975,11 +2969,11 @@
 	{
 		"name": "Chemistry Lab",
 		"maintenance": 3,
+		"science": 1,
 		"specialistSlots": {
 			"Scientist": 1
 		},
 		"uniques": [
-			"'Research Building'",
 			"Provides [1] [Industrial Chemicals]"
 		],
 		"requiredBuilding": "University",
@@ -3180,10 +3174,9 @@
 		"name": "Museum",
 		"maintenance": 5,
 		"culture": 10,
+		"science": 1,
 		"happiness": 1,
 		"uniques": [
-			"'Cultural Building'",
-			"'Educational Building'",
 			"Consumes [5] [Artifact]",
 			"Destroyed when the city is captured"
 		],
@@ -3476,6 +3469,7 @@
 	{
 		"name": "Technical School",
 		"maintenance": 3,
+		"science": 1,
 		"specialistSlots": {
 			"Engineer": 1,
 			"Scientist": 1,
@@ -3483,8 +3477,7 @@
 			"Merchant": 1
 		},
 		"uniques": [
-			"'Educational Building'",
-			"[+1 Production] from all ['Educational Building'] buildings <in this city>"
+			"[+1 Production] from all [Science] buildings <in this city>"
 		],
 		"requiredTech": "Mass Production"
 	},
@@ -3553,7 +3546,6 @@
 			"science": 25
 		},
 		"uniques": [
-			"'Research Building'",
 			"[Great Scientist] is earned [+5]% faster",
 			"[+1 Science] [in this city] <after discovering [Relativity Theory]>",
 			"[+1 Science] [in this city] <after discovering [Quantum Theory]>"
@@ -4047,6 +4039,7 @@
 		"name": "Bio Lab",
 		"maintenance": 10,
 		"happiness": 1,
+		"science": 1,
 		"specialistSlots": {
 			"Scientist": 1
 		},
@@ -4054,7 +4047,6 @@
 			"food": 10
 		},
 		"uniques": [
-			"'Research Building'",
 			"[25]% Food is carried over after population increases [in this city]",
 			"[Great Scientist] is earned [+5]% faster"
 		],
@@ -4382,7 +4374,6 @@
 			"science": 33
 		},
 		"uniques": [
-			"'Research Building'",
 			"[Great Scientist] is earned [+25]% faster"
 		],
 		"requiredTech": "Particle Physics",
@@ -4486,7 +4477,6 @@
 		"maintenance": 10,
 		"science": 5,
 		"uniques": [
-			"'Research Building'",
 			"Provides [2] [Graphene]",
 			"Consumes [3] [Coal]"
 		],
@@ -4904,13 +4894,13 @@
 		"name": "Examination Hall",
 		"maintenance": 2,
 		"happiness": 1,
+		"science": 1,
 		"culture": 2,
 		"greatPersonPoints": {
 			"Great Strategist": 1
 		},
 		"uniques": [
 			"'Political Building'",
-			"'Educational Building'",
 			"Provides [1] [Artifact] <in this city> <after discovering [Archaeology]>",
 			"[+3]% Production towards any buildings that already exist in the Capital",
 			"New [Military] units start with [5] XP [in this city]",
@@ -5011,7 +5001,7 @@
 		"uniques": [
 			"Unbuildable",
 			"Unsellable",
-			"[+33]% Production when constructing ['Educational Building'] buildings [in all cities]",
+			"[+33]% Production when constructing [Science] buildings [in all cities]",
 			"[+3 Faith, +3 Science, +3 Culture] <in cities with at least [5] [Population]>",
 			"Triggers a global alert upon completion",
 			"Moves to new capital when capital changes"
@@ -5082,7 +5072,7 @@
 			"Unbuildable",
 			"Unsellable",
 			"[+3]% [Science] from every ['Organise Place']",
-			"May buy ['Research Building'] buildings for [800] [Faith] [in all cities]",
+			"May buy [Science] buildings for [800] [Faith] [in all cities]",
 			"Triggers a global alert upon completion",
 			"Moves to new capital when capital changes"
 		],
