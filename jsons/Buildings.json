@@ -429,7 +429,6 @@
 		"cost": 30,
 		"culture": 1,
 		"uniques": [
-			"'Cultural Building'",
 			"Provides [1] [Artifact] <in this city> <after discovering [Archaeology]>",
 			"[-1]% Culture cost of natural border growth [in all cities]",
 			"[+1 Gold] <after discovering [Theology]>",
@@ -1026,12 +1025,12 @@
 		"uniqueTo": "Central and West Asia",
 		"replaces": "Garden",
 		"maintenance": 3,
+		"culture": 1,
 		"happiness": 1,
 		"specialistSlots": {
 			"Artist": 1
 		},
 		"uniques": [
-			"'Cultural Building'",
 			"[+25]% Great Person generation [in this city]"
 		],
 		"requiredTech": "Plows",
@@ -1153,7 +1152,6 @@
 		"maintenance": 1,
 		"culture": 1,
 		"uniques": [
-			"'Cultural Building'",
 			"Provides [1] [Living Condition] <in this city>",
 			"[+1 Gold] from all ['Economic Building'] buildings <in this city>",
 			"[-10]% Culture cost of natural border growth [in this city]",
@@ -1169,7 +1167,6 @@
 		"culture": 1,
 		"happiness": 1,
 		"uniques": [
-			"'Cultural Building'",
 			"Provides [1] [Living Condition] <in this city>",
 			"[+1 Gold] from all ['Economic Building'] buildings <in this city>",
 			"[-10]% Culture cost of natural border growth [in this city]",
@@ -1187,7 +1184,6 @@
 		"culture": 1,
 		"happiness": 1,
 		"uniques": [
-			"'Cultural Building'",
 			"'Economic Building'",
 			"Provides [1] [Living Condition] <in this city>",
 			"[+25]% Production when constructing ['Economic Building'] buildings [in this city]",
@@ -1886,12 +1882,12 @@
 	{
 		"name": "Tea House",
 		"maintenance": 2,
+		"culture": 1,
 		"happiness": 1,
 		"specialistSlots": {
 			"Artist": 1
 		},
 		"uniques": [
-			"'Cultural Building'",
 			"Provides [1] [Tea Leave]",
 			"[+2 Culture] from [Tea Leave] tiles [in this city]",
 			"Destroyed when the city is captured"
@@ -1904,9 +1900,9 @@
 	{
 		"name": "Cafe",
 		"maintenance": 2,
+		"culture": 1,
 		"happiness": 1,
 		"uniques": [
-			"'Cultural Building'",
 			"Provides [1] [Coffee]",
 			"[+1 Culture, +1 Gold] from [Coffee] tiles [in this city]",
 			"Destroyed when the city is captured"
@@ -1952,12 +1948,12 @@
 	{
 		"name": "Garden",
 		"maintenance": 3,
+		"culture": 1,
 		"happiness": 1,
 		"specialistSlots": {
 			"Artist": 1
 		},
 		"uniques": [
-			"'Cultural Building'",
 			"[+25]% Great Person generation [in this city]",
 			"Must be next to [Fresh water]"
 		],
@@ -1999,12 +1995,12 @@
 	{
 		"name": "Theatre",
 		"maintenance": 1,
+		"culture": 1,
 		"happiness": 1,
 		"specialistSlots": {
 			"Artist": 1
 		},
 		"uniques": [
-			"'Cultural Building'",
 			"[+1 Happiness] [in this city] <after discovering [Electricity]>",
 			"Destroyed when the city is captured"
 		],
@@ -2626,7 +2622,6 @@
 			"gold": 5
 		},
 		"uniques": [
-			"'Cultural Building'",
 			"[+3 Culture] [in this city] <after discovering [Electricity]>",
 			"Destroyed when the city is captured"
 		],
@@ -2643,7 +2638,6 @@
 			"faith": 10
 		},
 		"uniques": [
-			"'Cultural Building'",
 			"[+1 Happiness] [in this city] <after discovering [Electricity]>",
 			"Only available <after adopting [Humanism]>",
 			"Destroyed when the city is captured",
@@ -2852,7 +2846,6 @@
 			"Artist": 1
 		},
 		"uniques": [
-			"'Cultural Building'",
 			"Destroyed when the city is captured"
 		],
 		"requiredBuilding": "Town Square",
@@ -3191,7 +3184,6 @@
 			"Artist": 1
 		},
 		"uniques": [
-			"'Cultural Building'",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Archaeology",
@@ -4148,7 +4140,6 @@
 			"Artist": 3
 		},
 		"uniques": [
-			"'Cultural Building'",
 			"[-3]% Culture cost of natural border growth [in all cities]"
 		],
 		"requiredBuilding": "Broadcast Tower",
@@ -4852,7 +4843,6 @@
 		},
 		"uniques": [
 			"'Political Building'",
-			"'Cultural Building'",
 			"Provides [1] [Artifact] <in this city> <after discovering [Archaeology]>",
 			"[+25]% Great Person generation [in this city]",
 			"Only available <after adopting [Scholarship]>",
