@@ -3163,7 +3163,7 @@
 			"[+1 Food] from [Permaculture] tiles [in this city]",
 			"[+1 Food] from [Colony Plantation] tiles [in this city]",
 			"[+1 Food] from [Mechanised Farm] tiles [in this city]",
-			"[+1 Food] from [Mechanised Livestock Farm] tiles [in this city]",
+			"[+1 Food] from [Mechanised Livestock Farm] tiles [in this city]"
 		],
 		"requiredBuilding": "Civilian Factory Complex",
 		"requiredTech": "Fertilizer",
