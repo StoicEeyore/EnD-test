@@ -117,7 +117,7 @@
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Carpentry",
-		"uniques": 
+		"uniques": [
 			"[+1 Production] from [Fresh water] tiles",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -137,7 +137,7 @@
 		"gold": 1,
 		"turnsToBuild": 10,
 		"techRequired": "Ecology",
-		"uniques": 
+		"uniques": [
 			"[+1 Production] from [Fresh water] tiles",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		],
@@ -154,7 +154,7 @@
 		"food": -1,
 		"turnsToBuild": 7,
 		"techRequired": "Replaceable Parts",
-		"uniques": 
+		"uniques": [
 			"[+1 Production] for each adjacent [Power Plant]",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		],
