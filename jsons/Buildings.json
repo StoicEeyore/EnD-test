@@ -441,7 +441,6 @@
 		"name": "Well",
 		"food": 2,
 		"uniques": [
-			"'Agricultural Building'",
 			"Must not be on [River]"
 		],
 		"requiredTech": "Agriculture",
@@ -453,7 +452,6 @@
 		"replaces": "Well",
 		"food": 2,
 		"uniques": [
-			"'Agricultural Building'",
 			"[+5]% growth [in this city]",
 			"Must not be on [River]"
 		],
@@ -508,7 +506,6 @@
 		"maintenance": 1,
 		"food": 1,
 		"uniques": [
-			"'Agricultural Building'",
 			"[+1 Food] from [Fruit] tiles [in this city]",
 			"[+1 Food] from [Grain] tiles [in this city]",
 			"[+1 Food] from [Tuber] tiles [in this city]"
@@ -525,7 +522,6 @@
 		"production": 1,
 		"cityHealth": 5,
 		"uniques": [
-			"'Agricultural Building'",
 			"[+1 Food] from [Fruit] tiles [in this city]",
 			"[+1 Food] from [Grain] tiles [in this city]",
 			"[+1 Food] from [Tuber] tiles [in this city]"
@@ -538,7 +534,6 @@
 		"happiness": 1,
 		"food": 1,
 		"uniques": [
-			"'Light Industry'",
 			"[+1 Gold] from [{'Agricultural Improvement'} {Grain}] tiles [in this city]",
 			"[+1 Gold] from [{'Agricultural Improvement'} {Tuber}] tiles [in this city]"
 		],
@@ -549,7 +544,6 @@
 		"name": "Brewery",
 		"gold": 1,
 		"uniques": [
-			"'Light Industry'",
 			"Provides [1] [Alcohol] <with [Grain]>",
 			"Provides [1] [Alcohol] <with [Fruit]>",
 			"Provides [1] [Alcohol] <with [Grape]>",
@@ -563,13 +557,12 @@
 		"name": "Pottery Workshop",
 		"gold": 1,
 		"uniques": [
-			"'Light Industry'",
 			"[+1 Production] per [3] population [in this city] <in cities with between [1] and [9] [Population]>",
 			"[+1 Production] per [5] population [in this city] <in cities with between [9] and [15] [Population]>",
 			"[+1 Production] per [8] population [in this city] <in cities with between [15] and [24] [Population]>",
 			"[+1 Production] per [10] population [in this city]<in cities with at least [24] [Population]>",
 			"[+1 Production] from [Clay] tiles [in this city]",
-			"[+1 Production] from [{improved} {Clay}] tiles [in this city]"
+			"[+1 Production] from [{Quarry} {Clay}] tiles [in this city]"
 		],
 		"requiredTech": "Pottery",
 		"hurryCostModifier": 0
@@ -578,14 +571,13 @@
 		"name": "Textile Workshop",
 		"maintenance": 1,
 		"uniques": [
-			"'Light Industry'",
 			"[+1 Culture] per [3] population [in this city] <in cities with between [1] and [9] [Population]>",
 			"[+1 Culture] per [5] population [in this city] <in cities with between [9] and [15] [Population]>",
 			"[+1 Culture] per [8] population [in this city] <in cities with between [15] and [24] [Population]>",
 			"[+1 Culture] per [10] population [in this city] <in cities with at least [24] [Population]>",
-			"[+1 Production] from [{'Agricultural Improvement'} {'Textile'}] tiles [in this city]",
+			"[+1 Production] from [{improved} {'Textile'}] tiles [in this city]",
 			"[+1 Gold] from [{Camp} {Furs}] tiles [in this city]",
-			"[+1 Gold] from [{'Agricultural Improvement'} {Silk}] tiles [in this city]"
+			"[+1 Gold] from [{improved} {Silk}] tiles [in this city]"
 		],
 		"requiredNearbyImprovedResources": [
 			"Bovine",
@@ -616,8 +608,7 @@
 		"cost": 20,
 		"food": 1,
 		"uniques": [
-			"'Economic Building'",
-			"[+1 Gold] from ['Hunt'] tiles [in this city]"
+			"[+1 Gold] from [Wild Animals, Ivory, Furs] tiles [in this city]"
 		],
 		"requiredTech": "Trapping",
 		"hurryCostModifier": 0
@@ -628,7 +619,6 @@
 		"food": 2,
 		"production": 1,
 		"uniques": [
-			"'Agricultural Building'",
 			"Must be on [River]"
 		],
 		"requiredTech": "The Wheel",
@@ -638,7 +628,6 @@
 		"name": "Early Irrigation System",
 		"uniqueTo": "North Africa",
 		"uniques": [
-			"'Agricultural Building'",
 			"[+1 Food] from [{Fresh water} {'Agricultural Improvement'}] tiles [in this city]",
 			"Must be on [River]",
 			"Only available <in cities without a [Irrigation System]>",
@@ -668,8 +657,6 @@
 	{
 		"name": "Mint",
 		"uniques": [
-			"'Economic Building'",
-			"'Political Building'",
 			"[+1 Gold] from [Gold Ore] tiles [in this city]",
 			"[+1 Gold] from [Silver Ore] tiles [in this city]",
 			"[+1 Gold] from [Rich Copper Ore] tiles [in this city]",
@@ -695,10 +682,9 @@
 			"Artist": 1
 		},
 		"uniques": [
-			"'Light Industry'",
 			"[+1 Gold] from [{improved} {'Precious Mineral'}] tiles [in this city]",
 			"[+1 Gold] from [{Camp} {Ivory}] tiles [in this city]",
-			"[+1 Gold] from [{'Water Improvement'} {Coral}] tiles [in this city]",
+			"[+1 Gold] from [{improved} {Coral}] tiles [in this city]",
 			"Consumes [1] [Glass] <with [Glass]>",
 			"[+1 Gold] <with [Glass]>"
 		],
@@ -718,7 +704,6 @@
 		"maintenance": 1,
 		"happiness": 2,
 		"uniques": [
-			"'Entertainment Building'",
 			"Consumes [2] [Alcohol]",
 			"Provides [1] [Mercenary Contract]",
 			"Destroyed when the city is captured"
@@ -948,7 +933,6 @@
 			"Artist": 1
 		},
 		"uniques": [
-			"'Educational Building'",
 			"[+1 Science] per [5] population [in this city]",
 			"[+1 Happiness] <after discovering [Drama and Poetry]>",
 			"Provides [1] [Artifact] <after discovering [Archaeology]>"
@@ -974,8 +958,7 @@
 		"gold": 1,
 		"production": 1,
 		"uniques": [
-			"'Economic Building'",
-			"[+1 Gold] from [{'Agricultural Improvement'} {'Herd'}] tiles [in this city]",
+			"[+1 Gold] from [{improved} {Horse, Bovine, Caprinae}] tiles [in this city]",
 			"Must have an owned [Pasture] within [3] tiles"
 		],
 		"requiredTech": "Trade Network",
@@ -985,13 +968,8 @@
 		"name": "Crops Market",
 		"gold": 1,
 		"uniques": [
-			"'Economic Building'",
-			"[+1 Gold] from [Incense] tiles [in this city]",
-			"[+1 Gold] from [Spices] tiles [in this city]",
-			"[+1 Gold] from [Grape] tiles [in this city]",
-			"[+1 Gold] from [Sugar] tiles [in this city]",
-			"[+1 Gold] from [Cocoa] tiles [in this city]",
-			"[+1 Gold] from [{'Agricultural Improvement'} {'Crops'}] tiles [in this city]"
+			"[+1 Gold] from [Luxury] tiles [in this city]",
+			"[+1 Gold] from [{improved} {Fruit, Grain, Tuber}] tiles [in this city]"
 		],
 		"requiredTech": "Trade Network",
 		"hurryCostModifier": 10
@@ -1067,7 +1045,7 @@
 			"'Worship Place'",
 			"[+1 Food] from [Coast] tiles [in this city]",
 			"[+25]% Production when constructing [Water] units [in all cities]",
-			"[+10]% Production when constructing ['Economic Building'] buildings [in all cities]",
+			"[+10]% Production when constructing [Gold] buildings [in all cities]",
 			"Only available <after adopting [Marine Tradition]>"
 		],
 		"requiredTech": "Bronze Working",
@@ -1141,7 +1119,7 @@
 		"culture": 1,
 		"uniques": [
 			"Provides [1] [Living Condition] <in this city>",
-			"[+1 Gold] from all ['Economic Building'] buildings <in this city>",
+			"[+1 Gold] from all [Gold] buildings <in this city>",
 			"[-10]% Culture cost of natural border growth [in this city]",
 			"Destroyed when the city is captured"
 		],
@@ -1156,7 +1134,7 @@
 		"happiness": 1,
 		"uniques": [
 			"Provides [1] [Living Condition] <in this city>",
-			"[+1 Gold] from all ['Economic Building'] buildings <in this city>",
+			"[+1 Gold] from all [Gold] buildings <in this city>",
 			"[-10]% Culture cost of natural border growth [in this city]",
 			"Destroyed when the city is captured"
 		],
@@ -1172,10 +1150,9 @@
 		"culture": 1,
 		"happiness": 1,
 		"uniques": [
-			"'Economic Building'",
 			"Provides [1] [Living Condition] <in this city>",
-			"[+25]% Production when constructing ['Economic Building'] buildings [in this city]",
-			"[+1 Gold] from all ['Economic Building'] buildings <in this city>",
+			"[+25]% Production when constructing [Gold] buildings [in this city]",
+			"[+1 Gold] from all [Gold] buildings <in this city>",
 			"[-10]% Culture cost of natural border growth [in this city]",
 			"Destroyed when the city is captured"
 		],
@@ -1190,8 +1167,7 @@
 			"Artist": 1
 		},
 		"uniques": [
-			"'Heavy Industry'",
-			"[+1 Production] from ['Rock'] tiles [in this city]",
+			"[+1 Production] from [Stone, Marble] tiles [in this city]",
 			"[+1]% Production when constructing [All] buildings [in all cities]"
 		],
 		"requiredNearbyImprovedResources": [
@@ -1206,7 +1182,6 @@
 		"maintenance": 1,
 		"production": 1,
 		"uniques": [
-			"'Heavy Industry'",
 			"[+1 Production] from [Clay] tiles [in this city]",
 			"[+1]% Production when constructing [All] buildings [in all cities]"
 		],
@@ -1225,7 +1200,6 @@
 			"Artist": 1
 		},
 		"uniques": [
-			"'Light Industry'",
 			"[+1 Gold] from ['Lumber Improvement'] tiles [in this city]",
 			"Must have an owned ['Lumber Improvement'] within [3] tiles"
 		],
@@ -1280,7 +1254,6 @@
 		"maintenance": 2,
 		"happiness": 1,
 		"uniques": [
-			"'Infrastructure'",
 			"[+10]% Production when constructing ['Mounted'] units [in this city]",
 			"[+1 Production] from [Horse] tiles [in this city]",
 			"[+1 Gold] from [Horse] tiles [in this city]",
@@ -1299,7 +1272,6 @@
 		"cityStrength": 5,
 		"cityHealth": 30,
 		"uniques": [
-			"'Static Defense'",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Masonry",
@@ -1310,7 +1282,6 @@
 		"maintenance": 3,
 		"culture": 1,
 		"uniques": [
-			"'Infrastructure'",
 			"Provides [1] [Living Condition] <in this city>"
 		],
 		"requiredTech": "Iron Working",
@@ -1567,7 +1538,6 @@
 		"name": "Paper Maker",
 		"maintenance": 1,
 		"uniques": [
-			"'Light Industry'",
 			"[+1 Gold] from every specialist [in this city]"
 		],
 		"requiredTech": "Paper Making",
@@ -1639,7 +1609,6 @@
 		"production": 1,
 		"science": 1,
 		"uniques": [
-			"'Light Industry'",
 			"Provides [1] [Glass]"
 		],
 		"requiredTech": "Optics",
@@ -1729,7 +1698,6 @@
 			"Engineer": 1
 		},
 		"uniques": [
-			"'Agricultural Building'",
 			"Must not be on [Hill]"
 		],
 		"requiredTech": "Construction",
@@ -1809,7 +1777,6 @@
 		"name": "Civilian Blacksmith",
 		"maintenance": 3,
 		"uniques": [
-			"'Light Industry'",
 			"[+1 Production] from [Quarry, Manual Mine, Mechanised Mine, Oil well] tiles [in this city]",
 			"[+1 Food] from ['Agricultural Improvement'] tiles [in this city]",
 			"[+1 Production] from ['Lumber Improvement'] tiles [in this city]"
@@ -2454,7 +2421,7 @@
 		"uniques": [
 			"'Light Industry'",
 			"Provides [1] [Mercenary Contract]",
-			"[+1 Production] from all ['Light Industry'] buildings <in this city>"
+			"[+1 Production] from all [Bakery, Brewery, Pottery Workshop, Textile Workshop, Jewellry Workshop, Furniture Workshop, Paper Maker, Glass Workshop, Civilian Blacksmith] buildings <in this city>"
 		],
 		"requiredBuilding": "City Hall",
 		"requiredTech": "Guilds",
@@ -2681,7 +2648,6 @@
 			"Merchant": 1
 		},
 		"uniques": [
-			"'Economic Building'",
 			"[+1 Gold] per [5] population [in this city]",
 			"[Great Merchant] is earned [+5]% faster"
 		],
