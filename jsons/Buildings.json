@@ -619,7 +619,6 @@
 		"cost": 20,
 		"food": 1,
 		"uniques": [
-			"'Economic Building'",
 			"[+1 Gold] from [Wild Animals] tiles [in this city]",
 			"[+1 Gold] from [Furs] tiles [in this city]",
 			"[+1 Gold] from [Ivory] tiles [in this city]"
@@ -677,7 +676,6 @@
 	{
 		"name": "Mint",
 		"uniques": [
-			"'Economic Building'",
 			"'Political Building'",
 			"[+1 Gold] from [Gold Ore] tiles [in this city]",
 			"[+1 Gold] from [Silver Ore] tiles [in this city]",
@@ -730,7 +728,6 @@
 		"maintenance": 1,
 		"happiness": 2,
 		"uniques": [
-			"'Entertainment Building'",
 			"Consumes [2] [Alcohol]",
 			"Provides [1] [Mercenary Contract]",
 			"Destroyed when the city is captured"
@@ -985,7 +982,6 @@
 		"gold": 1,
 		"production": 1,
 		"uniques": [
-			"'Economic Building'",
 			"[+1 Gold] from [{improved} {Bovine}] tiles [in this city]",
 			"[+1 Gold] from [{improved} {Caprinae}] tiles [in this city]",
 			"[+1 Gold] from [{improved} {Horse}] tiles [in this city]",
@@ -998,7 +994,6 @@
 		"name": "Crops Market",
 		"gold": 1,
 		"uniques": [
-			"'Economic Building'",
 			"[+1 Gold] from [Luxury resource] tiles [in this city]",
 			"[+1 Gold] from [{improved} {Fruit}] tiles [in this city]",
 			"[+1 Gold] from [{improved} {Grain}] tiles [in this city]",
@@ -1079,7 +1074,7 @@
 			"'Worship Place'",
 			"[+1 Food] from [Coast] tiles [in this city]",
 			"[+25]% Production when constructing [Water] units [in all cities]",
-			"[+10]% Production when constructing ['Economic Building'] buildings [in all cities]",
+			"[+10]% Production when constructing [Gold] buildings [in all cities]",
 			"Only available <after adopting [Marine Tradition]>"
 		],
 		"requiredTech": "Bronze Working",
@@ -1153,7 +1148,7 @@
 		"culture": 1,
 		"uniques": [
 			"Provides [1] [Living Condition] <in this city>",
-			"[+1 Gold] from all ['Economic Building'] buildings <in this city>",
+			"[+1 Gold] from all [Gold] buildings <in this city>",
 			"[-10]% Culture cost of natural border growth [in this city]",
 			"Destroyed when the city is captured"
 		],
@@ -1168,7 +1163,7 @@
 		"happiness": 1,
 		"uniques": [
 			"Provides [1] [Living Condition] <in this city>",
-			"[+1 Gold] from all ['Economic Building'] buildings <in this city>",
+			"[+1 Gold] from all [Gold] buildings <in this city>",
 			"[-10]% Culture cost of natural border growth [in this city]",
 			"Destroyed when the city is captured"
 		],
@@ -1184,10 +1179,9 @@
 		"culture": 1,
 		"happiness": 1,
 		"uniques": [
-			"'Economic Building'",
 			"Provides [1] [Living Condition] <in this city>",
-			"[+25]% Production when constructing ['Economic Building'] buildings [in this city]",
-			"[+1 Gold] from all ['Economic Building'] buildings <in this city>",
+			"[+25]% Production when constructing [Gold] buildings [in this city]",
+			"[+1 Gold] from all [Gold] buildings <in this city>",
 			"[-10]% Culture cost of natural border growth [in this city]",
 			"Destroyed when the city is captured"
 		],
@@ -1602,7 +1596,6 @@
 			"Artist": 1
 		},
 		"uniques": [
-			"'Entertainment Building'"
 		],
 		"requiredBuilding": "Town Square",
 		"requiredTech": "Stirrup",
@@ -1717,7 +1710,6 @@
 			"Merchant": 1
 		},
 		"uniques": [
-			"'Economic Building'",
 			"Provides [1] [Mercenary Contract]",
 			"[+1 Production, +1 Gold] from [Luxury resource] tiles [in this city]"
 		],
@@ -2722,7 +2714,6 @@
 			"Merchant": 1
 		},
 		"uniques": [
-			"'Economic Building'",
 			"[+1 Gold] per [5] population [in this city]",
 			"[Great Merchant] is earned [+5]% faster"
 		],
@@ -3087,7 +3078,6 @@
 			"Great Merchant": 2
 		},
 		"uniques": [
-			"'Economic Building'",
 			"Provides [1] [Influence]",
 			"[+1 Gold] from [resource] tiles [in all cities]",
 			"Only available <if [Bank] is constructed in all [non-[Puppeted]] cities>",
@@ -3104,7 +3094,6 @@
 		},
 		"uniques": [
 			"Unbuildable",
-			"'Economic Building'",
 			"[+33]% [Gold] [in all cities]",
 			"Destroyed when the city is captured"
 		],
@@ -3211,7 +3200,6 @@
 			"gold": 10
 		},
 		"uniques": [
-			"'Entertainment Building'",
 			"[-1]% Unhappiness from [Specialists] [in all cities]"
 		],
 		"requiredTech": "Steam Power",
@@ -3569,7 +3557,6 @@
 			"Merchant": 1
 		},
 		"uniques": [
-			"'Economic Building'",
 			"[+1 Gold] from every specialist [in this city]"
 		],
 		"requiredBuilding": "Bank",
@@ -3832,7 +3819,6 @@
 			"gold": 10
 		},
 		"uniques": [
-			"'Economic Building'",
 			"[+1 Gold] from [Luxury resource] tiles [in this city]"
 		],
 		"requiredTech": "Electricity",
@@ -3845,7 +3831,6 @@
 			"Artist": 1
 		},
 		"uniques": [
-			"'Economic Building'",
 			"[+1 Gold] per [5] population [in this city]"
 		],
 		"requiredBuilding": "Bank",
@@ -3881,7 +3866,6 @@
 		"maintenance": 3,
 		"happiness": 2,
 		"uniques": [
-			"'Entertainment Building'",
 			"[-5]% Unhappiness from [Population] [in this city]"
 		],
 		"requiredTech": "Radio",
@@ -4395,7 +4379,6 @@
 			"Merchant": 1
 		},
 		"uniques": [
-			"'Entertainment Building'",
 			"'High Tech Industry'",
 			"Consumes [1] [Electronic Parts]"
 		],
@@ -4484,7 +4467,6 @@
 			"Merchant": 1
 		},
 		"uniques": [
-			"'Economic Building'",
 			"[+3 Gold] per [10] population [in this city]"
 		],
 		"requiredBuilding": "Bank",
@@ -4714,8 +4696,8 @@
 	{
 		"name": "Igloo",
 		"culture": 1,
+		"gold": 1,
 		"uniques": [
-			"'Economic Building'",
 			"Provides [1] [Artifact] <in this city> <after discovering [Archaeology]>",
 			"Unbuildable",
 			"Only available <when religion is enabled>",
@@ -4821,7 +4803,6 @@
 		"happiness": 2,
 		"culture": 1,
 		"uniques": [
-			"'Entertainment Building'",
 			"Provides [1] [Artifact] <in this city> <after discovering [Archaeology]>",
 			"Only available <after adopting [Militant]>",
 			"[-10]% Unhappiness from [Population] [in this city]",
@@ -4857,7 +4838,6 @@
 			"gold": 15
 		},
 		"uniques": [
-			"'Economic Building'",
 			"Provides [1] [Artifact] <in this city> <after discovering [Archaeology]>",
 			"Only available <after adopting [Plutocracy]>",
 			"[-10]% Production when constructing [All] buildings [in this city]",
@@ -4871,7 +4851,6 @@
 		"name": "Jousting Place",
 		"happiness": 2,
 		"uniques": [
-			"'Entertainment Building'",
 			"Provides [1] [Artifact] <in this city> <after discovering [Archaeology]>",
 			"[-5]% Unhappiness from [Population] [in this city]",
 			"Only available <after adopting [Feudalism]>"
@@ -4913,7 +4892,6 @@
 			"Governor": 1
 		},
 		"uniques": [
-			"'Economic Building'",
 			"'Political Building'",
 			"Can only be built <in [Annexed] cities>",
 			"Only available <after adopting [Imperialism]>",
@@ -4931,7 +4909,6 @@
 			"Merchant": 1
 		},
 		"uniques": [
-			"'Economic Building'",
 			"Only available <after adopting [Privatised Property]>",
 			"[-15]% Production when constructing [All] buildings [in this city]",
 			"[Gold] cost of purchasing [All] buildings [-2]%",
@@ -5203,7 +5180,7 @@
 			"Unsellable",
 			"'Economic Policy'",
 			"Triggers a global alert upon completion",
-			"[+1]% [Production] from every ['Economic Building']",
+			"[+[1]% Production] from all [Gold] buildings <in this city>",
 			"[-33]% [Gold] [in all cities]",
 			"[Gold] cost of purchasing items in cities [-25]%",
 			"Moves to new capital when capital changes"
@@ -5235,7 +5212,7 @@
 			"'Economic Policy'",
 			"Triggers a global alert upon completion",
 			"[+2 Gold] from all ['Light Industry'] buildings",
-			"[-1 Gold, +1 Happiness, +1 Culture] from all ['Economic Building'] buildings",
+			"[-1 Gold, +1 Happiness, +1 Culture] from all [Gold] buildings",
 			"[+3 Production] from all ['Military Building'] buildings",
 			"Moves to new capital when capital changes"
 		],
