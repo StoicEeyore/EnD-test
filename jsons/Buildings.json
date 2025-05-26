@@ -1245,7 +1245,12 @@
 		"uniques": [
 			"'Light Industry'",
 			"[+1 Gold] from [{improved} {Hard Wood}] tiles [in this city]",
-			"Must have an owned [{improved} {Hard Wood}] within [3] tiles"
+			"[+1 Gold] from [Manual Lumber Mill] tiles [in this city]",
+			"[+1 Gold] from [Mechanised Lumber Mill] tiles [in this city]",
+			"[+1 Gold] from [Tree Plantation] tiles [in this city]",
+			"Must have an owned [{improved} {Hard Wood}] within [3] tiles",
+			"Must have an owned [Manual Lumber Mill] within [3] tiles",
+			"Must have an owned [Mechanised Lumber Mill] within [3] tiles"
 		],
 		"requiredTech": "Carpentry",
 		"hurryCostModifier": 10
@@ -1840,7 +1845,9 @@
 			"[+1 Food] from [Pasture] tiles [in this city]",
 			"[+1 Food] from [Oasis Dwelling] tiles [in this city]",
 			"[+1 Food] from [Permaculture] tiles [in this city]",
-			"[+1 Production] from [{improved} {Hard Wood}] tiles [in this city]"
+			"[+1 Production] from [{improved} {Hard Wood}] tiles [in this city]",
+			"[+1 Production] from [Manual Lumber Mill] tiles [in this city]",
+			"[+1 Production] from [Mechanised Lumber Mill] tiles [in this city]"
 		],
 		"requiredTech": "Forging",
 		"hurryCostModifier": 25
@@ -3420,7 +3427,10 @@
 		"uniques": [
 			"'Light Industry'",
 			"[+1 Gold] from [{improved} {Hard Wood}] tiles [in this city]",
-			"[+1 Gold] from [Hard Wood] tiles [in this city]",
+			"[+1 Gold] from [Manual Lumber Mill] tiles [in this city]",
+			"[+1 Gold] from [Mechanised Lumber Mill] tiles [in this city]",
+			"[+1 Gold] from [Tree Plantation] tiles [in this city]",
+			"[+1 Gold] from [Hard Wood] tiles [in this city]"
 		],
 		"requiredBuilding": "Civilian Factory Complex",
 		"requiredTech": "Replaceable Parts",
@@ -5293,6 +5303,9 @@
 			"[+1 Culture, +1 Production] from [{improved} {Land}] tiles [in all cities]",
 			"[+1 Culture, +1 Production] from [{improved} {Water}] tiles [in all cities]",
 			"[+1 Culture, +1 Science] from [{improved} {Hard Wood}] tiles [in all cities]",
+			"[+1 Culture, +1 Science] from [Manual Lumber Mill] tiles [in all cities]",
+			"[+1 Culture, +1 Science] from [Mechanised Lumber Mill] tiles [in all cities]",
+			"[+1 Culture, +1 Science] from [Tree Plantation] tiles [in all cities]",
 			"[+1 Culture, +1 Food] from [Quarry] tiles [in all cities]",
 			"[+1 Culture, +1 Food] from [Manual Mine] tiles [in all cities]",
 			"[+1 Culture, +1 Food] from [Mechanised Mine] tiles [in all cities]",
