@@ -1001,7 +1001,7 @@
 		"gold": 1,
 		"uniques": [
 			"'Economic Building'",
-			"[+1 Gold] from [Luxury] tiles [in this city]",
+			"[+1 Gold] from [Luxury resource] tiles [in this city]",
 			"[+1 Gold] from [{improved} {Fruit}] tiles [in this city]",
 			"[+1 Gold] from [{improved} {Grain}] tiles [in this city]",
 			"[+1 Gold] from [{improved} {Tuber}] tiles [in this city]",
@@ -1397,7 +1397,7 @@
 			"Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
 			"[+1 Gold] from [Clay] tiles [in this city]",
 			"[+1 Gold] from [Minerals] tiles [in this city]",
-			"[+1 Gold] from [Strategic] tiles [in this city]",
+			"[+1 Gold] from [Strategic resource] tiles [in this city]",
 			"[+1 Gold] from [Rich Copper Ore] tiles [in this city]"
 		],
 		"requiredTech": "Masonry",
