@@ -9,7 +9,6 @@
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
 		"uniques": [
-			"'Agricultural Improvement'",
 			"Can also be built on tiles adjacent to fresh water",
 			"[+1 Food] <after discovering [Crop Rotation]>",
 			"Cannot be built on [Hill] tiles",
@@ -30,7 +29,6 @@
 		"turnsToBuild": 10,
 		"techRequired": "Agriculture",
 		"uniques": [
-			"'Agricultural Improvement'",
 			"[+1 Food] <after discovering [Crop Rotation]>",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+18 Gold]"
@@ -54,7 +52,6 @@
 		"turnsToBuild": 7,
 		"techRequired": "Fertilizer",
 		"uniques": [
-			"'Agricultural Improvement'",
 			"[-2 Food] from [Grassland] tiles",
 			"[-2 Food] from [Desert] tiles",
 			"[+1 Food] for each adjacent [Power Plant]",
@@ -86,7 +83,6 @@
 		"turnsToBuild": 10,
 		"techRequired": "Biodegradables",
 		"uniques": [
-			"'Agricultural Improvement'",
 			"[+2 Food] from [Fresh water] tiles",
 			"Can also be built on tiles adjacent to fresh water",
 			"Cannot be built on [Hill] tiles",
@@ -104,7 +100,6 @@
 		"food": 1,
 		"turnsToBuild": 10,
 		"uniques": [
-			"'Agricultural Improvement'",
 			"[+1 Culture] for each adjacent [Mountain]",
 			"[+1 Food] <after discovering [Crop Rotation]>",
 			"Cannot be built on [{non-[Hill]} {non-[Mountain]}] tiles",
@@ -122,8 +117,7 @@
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Carpentry",
-		"uniques": [
-			"'Lumber Improvement'",
+		"uniques": 
 			"[+1 Production] from [Fresh water] tiles",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -143,8 +137,7 @@
 		"gold": 1,
 		"turnsToBuild": 10,
 		"techRequired": "Ecology",
-		"uniques": [
-			"'Lumber Improvement'",
+		"uniques": 
 			"[+1 Production] from [Fresh water] tiles",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		],
@@ -161,8 +154,7 @@
 		"food": -1,
 		"turnsToBuild": 7,
 		"techRequired": "Replaceable Parts",
-		"uniques": [
-			"'Lumber Improvement'",
+		"uniques": 
 			"[+1 Production] for each adjacent [Power Plant]",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		],
@@ -177,7 +169,6 @@
 		"turnsToBuild": 7,
 		"techRequired": "Mining",
 		"uniques": [
-			"'Extraction Improvement'",
 			"[+1 Production] <after discovering [Geology]>",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		],
@@ -192,7 +183,6 @@
 		"turnsToBuild": 7,
 		"techRequired": "Steam Power",
 		"uniques": [
-			"'Extraction Improvement'",
 			"[+1 Production] for each adjacent [Power Plant]",
 			"Pillaging this improvement yields approximately [+40 Gold]"
 		],
@@ -208,7 +198,6 @@
 		"turnsToBuild": 5,
 		"techRequired": "Animal Husbandry",
 		"uniques": [
-			"'Agricultural Improvement'",
 			"[+1 Food] <after discovering [Refrigeration]>",
 			"[+2 Culture] <after discovering [Ecology]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
@@ -226,7 +215,6 @@
 		"turnsToBuild": 7,
 		"techRequired": "Biology",
 		"uniques": [
-			"'Agricultural Improvement'",
 			"[-1 Food] from [Tundra] tiles",
 			"[-1 Food] from [Hill] tiles",
 			"[+1 Food] for each adjacent [Power Plant]",
@@ -312,7 +300,6 @@
 		"turnsToBuild": 4,
 		"techRequired": "Hunting and Fishing",
 		"uniques": [
-			"'Water Improvement'",
 			"[+1 Food] <after discovering [Refrigeration]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -328,7 +315,6 @@
 		"turnsToBuild": 7,
 		"techRequired": "Biology",
 		"uniques": [
-			"'Water Improvement'",
 			"[+1 Food] for each adjacent [Power Plant]",
 			"[+1 Food] <after discovering [Refrigeration]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
@@ -343,7 +329,6 @@
 		"turnsToBuild": 7,
 		"techRequired": "Refrigeration",
 		"uniques": [
-			"'Water Improvement'",
 			"Provides [2] [Deep Sea Fish(Stored)]",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]"
@@ -377,7 +362,6 @@
 		],
 		"techRequired": "Steam Power",
 		"uniques": [
-			"'Water Improvement'",
 			"Can be built outside your borders",
 			"Gain control over [Ocean] tiles in a [1]-tile radius"
 		],
@@ -397,7 +381,6 @@
 		"techRequired": "Agriculture",
 		"uniques": [
 			"'Policy Improvement'",
-			"'Agricultural Improvement'",
 			"Only available <after adopting [Desert Tradition]>",
 			"Pillaging this improvement yields approximately [+18 Gold]"
 		],
@@ -443,7 +426,6 @@
 		"turnsToBuild": 8,
 		"uniques": [
 			"'Policy Improvement'",
-			"'Agricultural Improvement'",
 			"Only available <after adopting [Colonialism]>",
 			"Pillaging this improvement yields approximately [+18 Gold]"
 		],
@@ -472,8 +454,14 @@
 			"Only available <after adopting [Sustainability]>",
 			"[+1 Science, +1 Culture] for each adjacent [Forest]",
 			"[+1 Science, +1 Culture] for each adjacent [Jungle]",
-			"[-1 Science, -1 Culture] for each adjacent ['Extraction Improvement']",
-			"[-1 Science, -1 Culture] for each adjacent ['Agricultural Improvement']",
+			"[-1 Science, -1 Culture] for each adjacent [Manual Mine]",
+			"[-1 Science, -1 Culture] for each adjacent [Mechanised Mine]",
+			"[-1 Science, -1 Culture] for each adjacent [Quarry]",
+			"[-1 Science, -1 Culture] for each adjacent [Oil Well]",
+			"[-1 Science, -1 Culture] for each adjacent [Manual Farm]",
+			"[-1 Science, -1 Culture] for each adjacent [Manual Plantation]",
+			"[-1 Science, -1 Culture] for each adjacent [Mechanised Farm]",
+			"[-1 Science, -1 Culture] for each adjacent [Terrace Farm]",
 			"Pillaging this improvement yields approximately [+1 Gold]"
 		],
 		"shortcutKey": "N"
@@ -511,7 +499,6 @@
 		"turnsToBuild": 9,
 		"techRequired": "Chemistry",
 		"uniques": [
-			"'Extraction Improvement'",
 			"Can only be built to improve a resource",
 			"Cannot be built on [Water] tiles",
 			"Provides [1] [Natural Gas(Stored)] <in [Natural Gas] tiles>",
@@ -524,8 +511,6 @@
 		"techRequired": "Refrigeration",
 		"turnsToBuild": 9,
 		"uniques": [
-			"'Water Improvement'",
-			"'Extraction Improvement'",
 			"Can only be built to improve a resource",
 			"Can only be built on [Water] tiles",
 			"Provides [1] [Natural Gas(Stored)] <in [{Ocean} {Natural Gas}] tiles>",
@@ -539,7 +524,6 @@
 		"production": 1,
 		"techRequired": "Masonry",
 		"uniques": [
-			"'Extraction Improvement'",
 			"[+1 Production] <after discovering [Chemistry]>",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+20 Gold]"
@@ -798,8 +782,12 @@
 		],
 		"production": 4,
 		"uniques": [
-			"[+1 Production] for each adjacent ['Extraction Improvement']",
-			"[+1 Production] for each adjacent ['Lumber Improvement']",
+			"[+1 Production] for each adjacent [Manual Mine]",
+			"[+1 Production] for each adjacent [Mechanised Mine]",
+			"[+1 Production] for each adjacent [Quarry]",
+			"[+1 Production] for each adjacent [Oil Well]",
+			"[+1 Production] for each adjacent [Manual Lumber Mill]",
+			"[+1 Production] for each adjacent [Mechanised Lumber Mill]",
 			"[+2 Production] for each adjacent [Power Plant]",
 			"[+2 Production] for each adjacent [Storage Base]",
 			"Great Improvement",
