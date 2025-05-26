@@ -1281,7 +1281,6 @@
 		"culture": 1,
 		"requiredTech": "Drama and Poetry",
 		"uniques": [
-			"'Worship Place'",
 			"Only available <when religion is enabled>",
 			"Destroyed when the city is captured"
 		],
@@ -2068,7 +2067,6 @@
 			"food": -5
 		},
 		"uniques": [
-			"'Worship Place'",
 			"Unbuildable",
 			"Only available <when religion is enabled>"
 		],
@@ -4584,7 +4582,6 @@
 		"faith": 1,
 		"culture": 1,
 		"uniques": [
-			"'Worship Place'",
 			"Provides [1] [Artifact] <in this city> <after discovering [Archaeology]>",
 			"Only available <after adopting [Polytheism]>",
 			"Only available <when religion is enabled>",
@@ -4600,7 +4597,6 @@
 		"faith": 1,
 		"culture": 1,
 		"uniques": [
-			"'Worship Place'",
 			"Provides [1] [Artifact] <in this city> <after discovering [Archaeology]>",
 			"Creates a [Manual Farm] improvement on a specific tile",
 			"Only available <after adopting [Polytheism]>",
@@ -4617,7 +4613,6 @@
 		"faith": 1,
 		"culture": 1,
 		"uniques": [
-			"'Worship Place'",
 			"Provides [1] [Artifact] <in this city> <after discovering [Archaeology]>",
 			"[+15]% Production when constructing [Faith] wonders [in this city]",
 			"Only available <after adopting [Polytheism]>",
@@ -4636,7 +4631,6 @@
 		"cityHealth": 5,
 		"cityStrength": 2,
 		"uniques": [
-			"'Worship Place'",
 			"Provides [1] [Artifact] <in this city> <after discovering [Archaeology]>",
 			"Only available <after adopting [Polytheism]>",
 			"Only available <when religion is enabled>",
@@ -4672,7 +4666,6 @@
 		"faith": 2,
 		"culture": 1,
 		"uniques": [
-			"'Worship Place'",
 			"Provides [1] [Artifact] <in this city> <after discovering [Archaeology]>",
 			"Only available <after adopting [Polytheism]>",
 			"Only available <when religion is enabled>",
@@ -4713,7 +4706,6 @@
 		"cost": 20,
 		"faith": 2,
 		"uniques": [
-			"'Worship Place'",
 			"Provides [1] [Artifact] <in this city> <after discovering [Archaeology]>",
 			"Only available <after adopting [Monotheism]>",
 			"Only available <when religion is enabled>",
@@ -4729,7 +4721,6 @@
 		"faith": 2,
 		"happiness": 1,
 		"uniques": [
-			"'Worship Place'",
 			"Provides [1] [Artifact] <in this city> <after discovering [Archaeology]>",
 			"Only available <after adopting [Monotheism]>",
 			"Only available <when religion is enabled>",
@@ -4744,7 +4735,6 @@
 		"replaces": "Chapel",
 		"faith": 1,
 		"uniques": [
-			"'Worship Place'",
 			"Provides [1] [Artifact] <in this city> <after discovering [Archaeology]>",
 			"Only available <after adopting [Monotheism]>",
 			"Only available <when religion is enabled>",
@@ -4760,7 +4750,6 @@
 		"faith": 2,
 		"culture": 1,
 		"uniques": [
-			"'Worship Place'",
 			"Provides [1] [Artifact] <in this city> <after discovering [Archaeology]>",
 			"Only available <after adopting [Monotheism]>",
 			"Only available <when religion is enabled>",
