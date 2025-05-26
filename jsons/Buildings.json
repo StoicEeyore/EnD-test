@@ -5159,7 +5159,7 @@
 			"Unsellable",
 			"'Economic Policy'",
 			"Triggers a global alert upon completion",
-			"[+[1]% Production] from all [Gold] buildings <in this city>",
+			"[+1 Production] from all [Gold] buildings <in this city>",
 			"[-33]% [Gold] [in all cities]",
 			"[Gold] cost of purchasing items in cities [-25]%",
 			"Moves to new capital when capital changes"
