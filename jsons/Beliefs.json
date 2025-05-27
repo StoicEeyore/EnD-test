@@ -78,7 +78,9 @@
         "uniques": [
             "Comment [Unlocks [Great Stone Mound]]",
             "[+1 Faith] from every [Grassland] <before the [Medieval era]>",
-            "[+1 Culture] from ['Herd'] tiles [in all cities]"
+            "[+1 Culture] from [Bovine] tiles [in all cities]",
+            "[+1 Culture] from [Caprinae] tiles [in all cities]",
+            "[+1 Culture] from [Horse] tiles [in all cities]"
         ]
     },
     ///Traditions
@@ -102,7 +104,9 @@
             "Comment [Unlocks [Temple of the Hunting God]]",
             "[+1 Culture] from every [Camp]",
             "[+1 Production] from every [Camp] <before the [Medieval era]>",
-            "[+1 Faith] from every ['Hunt'] <before the [Classical era]>"
+            "[+1 Faith] from every [Wild Animals] <before the [Classical era]>",
+            "[+1 Faith] from every [Furs] <before the [Classical era]>",
+            "[+1 Faith] from every [Ivory] <before the [Classical era]>"
         ]
     },
     {
@@ -113,8 +117,9 @@
             "[+1 Culture] from [Manual Farm] tiles [in all cities]",
             "[+1 Culture] from [Manual Plantation] tiles [in all cities]",
             "[+1 Culture] from [Mechanised Farm] tiles [in all cities]",
+            "[+1 Culture] from [Terrace Farm] tiles [in all cities]",
             "[+1 Culture] from [Permaculture] tiles [in all cities]",
-            "[+1 Faith] from every ['Agricultural Building']"
+            "[+1 Faith] from all [Food] buildings <in this city>"
         ]
     },
     ///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
@@ -123,8 +128,8 @@
         "name": "Generosity",
         "type": "Follower",
         "uniques": [
-            "[Gold] cost of purchasing ['Worship Place'] buildings [-33]%",
-            "[-1 Gold, +1 Happiness] from all ['Worship Place'] buildings"
+            "[Gold] cost of purchasing [Faith] buildings [-33]%",
+            "[-1 Gold, +1 Happiness] from all [Faith] buildings"
         ]
     },
     {
@@ -147,15 +152,15 @@
         "name": "Saints Worship",
         "type": "Follower",
         "uniques": [
-            "[+50]% Production when constructing ['Worship Place'] buildings [in all cities]",
-            "[+1 Faith] from all ['Worship Place'] buildings"
+            "[+50]% Production when constructing [Faith] buildings [in all cities]",
+            "[+1 Faith] from all [Faith] buildings"
         ]
     },
     {
         "name": "Mysticism",
         "type": "Follower",
         "uniques": [
-            "[-1 Science, +2 Happiness, +2 Faith] from all ['Worship Place'] buildings",
+            "[-1 Science, +2 Happiness, +2 Faith] from all [Faith] buildings",
             "[+5 Faith] from [Landmark] tiles [in all cities]"
         ]
     },
@@ -163,7 +168,7 @@
         "name": "Epicureanism",
         "type": "Follower",
         "uniques": [
-            "[+1 Faith] from all ['Entertainment Building'] buildings",
+            "[+1 Faith] from all [Happiness] buildings",
             "[+2 Happiness] from [Landmark] tiles [in all cities]"
         ]
     },
@@ -171,7 +176,7 @@
         "name": "Belief in Afterlife",
         "type": "Follower",
         "uniques": [
-            "[-1 Gold, +1 Faith] from every ['Worship Place']",
+            "[-1 Gold, +1 Faith] from all [Faith] buildings",
             "[-1 Gold, +3 Happiness] from every ['Practice Ground']",
             "Comment [Enables you to build [Mausoleum of Afterlife], a Wonder that increases its production as it ages.]"
         ]
@@ -181,7 +186,7 @@
         "type": "Follower",
         "uniques": [
             "[+2 Faith, +1 Culture] from every [Wonder]",
-            "[+1 Culture] from all ['Worship Place'] buildings"
+            "[+1 Culture] from all [Faith] buildings"
         ]
     },
     {
@@ -287,7 +292,7 @@
         "name": "Order of the Faith",
         "type": "Enhancer",
         "uniques": [
-            "May buy [{Military} {Land} {'Noble Army'} {non-['Mercenary Army']}] units with [Faith] for [2] times their normal Production cost <before the [Imperial era]> <in cities with at least [8] [Followers of this Religion]>",
+            "May buy [{'Noble Army'} {non-['Mercenary Army']}] units with [Faith] for [2] times their normal Production cost <before the [Imperial era]> <in cities with at least [8] [Followers of this Religion]>",
             "Provides [3] [Noble Army Maintainance] <in [Holy] cities>",
             "[Faith] cost of purchasing [Missionary] units [-25]%"
         ]
@@ -297,7 +302,7 @@
         "type": "Enhancer",
         "uniques": [
             "Only available <after adopting [Monasticism]>",
-            "May buy [{Military} {Land} {'Standing Army'} {non-['Mercenary Army']} {non-[Siege]}] units with [Faith] for [2] times their normal Production cost <before the [Imperial era]> <in cities with a [Monastery]>",
+            "May buy [{'Standing Army'} {non-['Mercenary Army']}] units with [Faith] for [2] times their normal Production cost <before the [Imperial era]> <in cities with a [Monastery]>",
             "Comment [Enables the [Monastery] to enhance your newly trained unit with a special promotion that increases their Strength]"
         ]
     },
@@ -349,7 +354,7 @@
         "type": "Enhancer",
         "uniques": [
             "[+200 Gold] when a city adopts this religion for the first time <(modified by game speed)>",
-            "[+1 Gold] from all ['Worship Place'] buildings"
+            "[+1 Gold] from all [Faith] buildings"
         ]
     },
     {
@@ -367,7 +372,7 @@
         "name": "Mentorship",
         "type": "Enhancer",
         "uniques": [
-            "May buy ['Educational Building'] buildings with [Faith] [in cities following this religion]",
+            "May buy [Science] buildings with [Faith] [in cities following this religion]",
             "[+3 Science] from every ['Core of Religion'] <in cities following our religion>"
         ]
     },
@@ -403,7 +408,7 @@
         "name": "Religion Stories",
         "type": "Enhancer",
         "uniques": [
-            "May buy ['Cultural Building'] buildings with [Faith] [in all cities]",
+            "May buy [Culture] buildings with [Faith] [in all cities]",
             "[+3 Culture] from every ['Core of Religion'] <in cities following our religion>"
         ]
     },
@@ -414,7 +419,7 @@
         "name": "Dualism",
         "type": "Founder",
         "uniques": [
-            "[+1 Faith] from all ['Cultural Building'] buildings",
+            "[+1 Faith] from all [Culture] buildings",
             "[+2 Culture] from every ['Organise Place']"
         ]
     },
@@ -474,7 +479,7 @@
         "type": "Founder",
         "uniques": [
             "Only available <after adopting [Monotheism]>",
-            "[+1 Production] from all ['Worship Place'] buildings"
+            "[+1 Production] from all [Faith] buildings"
         ]
     },
     {
