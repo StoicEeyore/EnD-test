@@ -133,7 +133,7 @@
             "Only available <before the [Medieval era]> <after turn number [1]>",
             "Comment [Enables you to build Garrison Units, a variant of Levy close combat units that has bonus promotions and have expertise in defense, they can also be trained like the standing army.]",
             "Remove [Tribes] [in all cities]",
-            "Gain a free [Tribal Union] [in capital] <for [2] turns> <before the [Classical era]>"
+            "Gain a free [Tribal Union] [in capital] <before the [Classical era]>"
         ],
         "policies": [
             {
@@ -275,8 +275,8 @@
             {
                 "name": "Inherit the Wisdom",
                 "uniques": [
-                    "[+33]% Production when constructing ['Cultural Building'] buildings [in all cities]",
-                    "[+1 Faith] from every ['Cultural Building'] <after adopting [Early Theology]>",
+                    "[+33]% Production when constructing [Culture] buildings [in all cities]",
+                    "[+1 Faith] from every [Culture] <after adopting [Early Theology]>",
                     "[+1 Culture] from every ['Political Building'] <after adopting [Codification]>"
                 ],
                 "row": 1,
@@ -341,7 +341,7 @@
                 "name": "Patronage",
                 "uniques": [
                     "[Gold] cost of purchasing [All] buildings [-10]%",
-                    "[Gold] cost of purchasing ['Cultural Building'] buildings [-10]% <after adopting [Pantheon Incorporation]>",
+                    "[Gold] cost of purchasing [Culture] buildings [-10]% <after adopting [Pantheon Incorporation]>",
                     "[Faith] cost of purchasing ['Organise Place'] buildings [-10]% <after adopting [Early Theology]>"
                 ],
                 "row": 2,
@@ -371,7 +371,7 @@
                 "name": "Monopoly",
                 "uniques": [
                     "[+2] Happiness from each type of luxury resource",
-                    "[+25]% Production when constructing ['Economic Building'] buildings [in all cities]",
+                    "[+25]% Production when constructing [Gold] buildings [in all cities]",
                     "[+1]% [Gold] from every ['Political Building'] <after adopting [Peace Under Force]>"
                 ],
                 "requires": [
@@ -461,7 +461,10 @@
         "era": "Medieval era",
         "uniques": [
             "Instantly provides [5] [Influence]",
-            "[+1 Gold] from every ['Agricultural Improvement']",
+            "[+1 Gold] from every [Manual Farm]",
+            "[+1 Gold] from every [Mechanised Farm]",
+            "[+1 Gold] from every [Manual Plantation]",
+            "[+1 Gold] from every [Terrace Farm]",
             "Comment [Enables you to build [Jousting Place], an 'entertainment building' that lessens unhappiness from population and dont need maintainance]",
             "Only available <before adopting [Meritocracy]>",
             "Only available <before adopting [Theocracy]>"
@@ -566,7 +569,7 @@
             {
                 "name": "Proxy of the god",
                 "uniques": [
-                    "[+2 Gold] from every ['Worship Place']",
+                    "[+2 Gold] from all [Faith] buildings",
                     "[+2 Culture] from every ['Organise Place']"
                 ],
                 "requires": [
@@ -607,8 +610,8 @@
                 "name": "Education Focus",
                 "uniques": [
                     "[+1 Science] per [5] population [in all cities] <in cities with at least [15] [Population]>",
-                    "[-1 Gold, +1 Culture] from every ['Educational Building']",
-                    "[+1 Culture, +1 Happiness] from every ['Worship Place'] <after adopting [Theocracy]>"
+                    "[-1 Gold, +1 Culture] from all [Science] buildings",
+                    "[+1 Culture, +1 Happiness] from all [Faith] buildings <after adopting [Theocracy]>"
                 ],
                 "requires": [
                     "Rise of Citizens"
@@ -634,7 +637,7 @@
                 "name": "Reformation",
                 "uniques": [
                     "[+1 Happiness, +2 Culture] [in all cities] <after adopting [Polytheism]>",
-                    "[+3 Faith] from every ['Worship Place'] <after adopting [Monotheism]>",
+                    "[+3 Faith] from all [Faith] buildings <after adopting [Monotheism]>",
                     "[+1 Faith, +1 Culture] <in cities with at least [5] [Population]>"
                 ],
                 "requires": [
@@ -677,12 +680,12 @@
             {
                 "name": "Naval Superiority",
                 "uniques": [
-                    "[+25]% Production when constructing ['Sailing Ship'] units [in all cities]",
-                    "[+15]% Production when constructing ['Engine Ship'] units [in all cities]",
+                    "[+25]% Production when constructing [Water] units [in all cities] <before discovering [Ship Armor]>",
+                    "[+15]% Production when constructing [Water] units [in all cities] <after discovering [Ship Armor]>",
                     "[+10]% Strength <for [Water] units>",
                     "[+10]% Strength <for [Embarked] units>",
-                    "[+8]% Production when constructing ['Sailing Ship'] units [in all cities] <after adopting [Meritocracy]>",
-                    "[+5]% Production when constructing ['Engine Ship'] units [in all cities] <after adopting [Meritocracy]>"
+                    "[+8]% Production when constructing [Water] units [in all cities] <after adopting [Meritocracy]> <before discovering [Ship Armor]>",
+                    "[+5]% Production when constructing [Water] units [in all cities] <after adopting [Meritocracy]> <after discovering [Ship Armor]>"
                 ],
                 "requires": [
                     "Colonialism"
@@ -831,7 +834,7 @@
             {
                 "name": "Cater to Profiteers",
                 "uniques": [
-                    "[+1]% [Gold] from every ['Economic Building']"
+                    "[+1]% [Gold] from all [Gold] buildings"
                 ],
                 "requires": [
                     "Privatised Property"
@@ -855,9 +858,9 @@
             {
                 "name": "Agricultural Fundings(Liberalism)",
                 "uniques": [
-                    "[Gold] cost of purchasing ['Agricultural Building'] buildings [-10]% <if [Free Market Focus] is constructed>",
-                    "[+33]% Production when constructing ['Agricultural Building'] buildings [in all cities] <if [Market Interventionism] is constructed>",
-                    "[+3 Food, -2 Gold] from every ['Agricultural Building']"
+                    "[Gold] cost of purchasing [Food] buildings [-10]% <if [Free Market Focus] is constructed>",
+                    "[+33]% Production when constructing [Food] buildings [in all cities] <if [Market Interventionism] is constructed>",
+                    "[+3 Food, -2 Gold] from all [Food] buildings"
                 ],
                 "requires": [
                     "Privatised Property"
@@ -893,7 +896,7 @@
         "name": "Conservatism",
         "era": "Modern era",
         "uniques": [
-            "[+1 Culture] from every ['Cultural Building']",
+            "[+1 Culture] from all [Culture] buildings",
             "Only available <before adopting [Revolution]>",
             "Only available <before adopting [Socialism]>",
             "Only available <before adopting [Liberalism]>",
@@ -949,9 +952,9 @@
             {
                 "name": "Agricultural Fundings(Conservative)",
                 "uniques": [
-                    "[Gold] cost of purchasing ['Agricultural Building'] buildings [-10]% <if [Corporatism Focus] is constructed>",
-                    "[+33]% Production when constructing ['Agricultural Building'] buildings [in all cities] <if [Market Interventionism] is constructed>",
-                    "[+3 Food, -2 Gold] from every ['Agricultural Building']"
+                    "[Gold] cost of purchasing [Food] buildings [-10]% <if [Corporatism Focus] is constructed>",
+                    "[+33]% Production when constructing [Food] buildings [in all cities] <if [Market Interventionism] is constructed>",
+                    "[+3 Food, -2 Gold] from all [Food] buildings"
                 ],
                 "requires": [
                     "Mixed Economy"
@@ -962,7 +965,7 @@
             {
                 "name": "Deradicalization",
                 "uniques": [
-                    "[-10]% [Culture] from every ['Educational Building']",
+                    "[-10]% [Culture] from all [Science] buildings",
                     "[-33]% City-State Influence degradation",
                     "[-10]% Unhappiness from [Population] [in all cities]"
                 ],
@@ -1167,8 +1170,12 @@
                 "name": "Socialism Complete",
                 "uniques": [
                     "Instantly provides [10] [Influence]",
-                    "[+1 Production] from every ['Extraction Improvement']",
-                    "[+1 Science, +1 Production] from every ['Educational Building']"
+                    "[+1 Production] from every [Manual Mine]",
+                    "[+1 Production] from every [Mechanised Mine]",
+                    "[+1 Production] from every [Quarry]",
+                    "[+1 Production] from every [Oil Well]",
+                    "[+1 Production] from every [Offshore Platform]",
+                    "[+1 Science, +1 Production] from all [Science] buildings"
                 ]
             }
         ]
@@ -1343,8 +1350,7 @@
                 "name": "Reformed Bureaucracy",
                 "uniques": [
                     "[+2 Science] from every ['Political Building']",
-                    "[+2 Science] from every ['Educational Building']",
-                    "[+2 Science] from every ['Research Building']"
+                    "[+2 Science] from all [Science] buildings"
                 ],
                 "row": 1,
                 "column": 1
@@ -1474,8 +1480,17 @@
             {
                 "name": "Scarcity Reduction",
                 "uniques": [
-                    "[+1 Food] from every ['Agricultural Improvement']",
-                    "[+1 Gold] from every ['Extraction Improvement']"
+			        "[+1 Food] from [Manual Farm] tiles [in all cities]",
+		        	"[+1 Food] from [Manual Plantation] tiles [in all cities]",
+		        	"[+1 Food] from [Terrace Farm] tiles [in all cities]",
+		        	"[+1 Food] from [Pasture] tiles [in all cities]",
+		        	"[+1 Food] from [Oasis Dwelling] tiles [in all cities]",
+		        	"[+1 Food] from [Permaculture] tiles [in all cities]",		
+                    "[+1 Gold] from [Quarry] tiles [in all cities]",
+		        	"[+1 Gold] from [Manual Mine] tiles [in all cities]",
+		        	"[+1 Gold] from [Mechanised Mine] tiles [in all cities]",
+		        	"[+1 Gold] from [Oil Well] tiles [in all cities]",
+		        	"[+1 Gold] from [Offshore Platform] tiles [in all cities]"
                 ],
                 "row": 1,
                 "column": 1
@@ -1483,7 +1498,7 @@
             {
                 "name": "Usage of AI",
                 "uniques": [
-                    "[+33]% [Science] from every ['Research Building']"
+                    "[+33]% [Science] from all [Science] buildings"
                 ],
                 "row": 1,
                 "column": 5
@@ -1537,7 +1552,7 @@
         "name": "Transhumanism",
         "era": "Future era",
         "uniques": [
-            "[+3 Food] from every ['Agricultural Building']"
+            "[+3 Food] from all [Food] buildings"
         ],
         "policies": [
             {
@@ -1572,7 +1587,7 @@
             {
                 "name": "Modification Laws",
                 "uniques": [
-                    "[+2 Culture] from every ['Research Building']"
+                    "[+2 Culture] from all [Science] buildings"
                 ],
                 "requires": [
                     "Gene Purification"
