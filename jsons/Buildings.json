@@ -38,7 +38,6 @@
 		"uniques": [
 			"Unsellable",
 			"Unbuildable <for [AI player] Civilizations>",
-			"Unbuildable <in [puppeted] cities>",
 			"Only available <in cities with at least [5] [Population]>",
 			"[-1 Happiness] [in this city] <before adopting [Militia Army]>",
 			"[-1 Happiness] [in this city] <before adopting [Military Tradition]>",
@@ -639,7 +638,7 @@
 		"uniqueTo": "North Africa",
 		"uniques": [
 			"[+1 Food] from [{Fresh water} {Pasture}] tiles [in this city]",
-			"[+1 Food] from [{Fresh water} {Manual Farms}] tiles [in this city]",
+			"[+1 Food] from [{Fresh water} {Manual Farm}] tiles [in this city]",
 			"[+1 Food] from [{Fresh water} {Manual Plantation}] tiles [in this city]",
 			"[+1 Food] from [{Fresh water} {Terrace Farm}] tiles [in this city]",
 			"[+1 Food] from [{Fresh water} {Oasis Dwelling}] tiles [in this city]",
